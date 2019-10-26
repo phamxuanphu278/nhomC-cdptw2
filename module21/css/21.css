@@ -1,0 +1,175 @@
+.type21 .blog-new {
+  font-size: 20px;
+  text-align: center;
+}
+.type21 .line-product {
+  display: table-row;
+}
+.type21 .line-product .left-line {
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+  padding-right: 20px;
+}
+.type21 .line-product .right-line {
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+  padding-left: 20px;
+}
+.type21 .line-product .left-line:after,
+.type21 .line-product .right-line:after {
+  background-color: #d45a5a;
+  content: "";
+  width: 100%;
+  display: inline-block;
+  height: 1px;
+  vertical-align: middle;
+}
+.type21 .line-product .title {
+  white-space: nowrap;
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: bold;
+  color: #d45a5a;
+  font-size: 25px;
+}
+.type21 .ourblog {
+  text-align: center;
+  padding-top: 20px;
+}
+.type21 .ourblog .btnReadMore {
+  margin-top: 10px;
+  background: #fff;
+  color: #d45a5a;
+  border: 2px solid #d45a5a;
+}
+.type21 .ourblog .btnReadMore:hover {
+  background: #d45a5a;
+  color: #fff;
+}
+.type21 .ourblog .font-name h1 {
+  font-size: 22px;
+  color: #0066cc;
+}
+.type21 .ourblog .font-name h1 a {
+  color: #d45a5a;
+  text-decoration: none;
+}
+.type21 .ourblog .font-name h1 a:hover {
+  color: #523839;
+}
+.type21 .ourblog .font-name .ourlog-a a {
+  text-decoration: none;
+}
+.type21 .ourblog .font-name h2 {
+  font-size: 20px;
+  color: #003333;
+}
+.type21 .ourblog .thumbnail {
+  border: none;
+}
+.type21 .ourblog .blog-new-label {
+  margin-top: 15px;
+  margin-left: 15px;
+  color: #000;
+  text-align: center;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0 12px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 2;
+}
+.type21 .ourblog .blog-new-label .month-label {
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+.type21 .ourblog .blog-new-label .day-label {
+  text-align: center;
+  margin-top: 10px;
+}
+.type21 .ourblog .blog-creative-hobbies {
+  margin-top: -27px;
+  color: #fff;
+  text-align: center;
+  background-color: #d45a5a;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px 12px;
+  display: block;
+  position: absolute;
+  top: 1;
+  left: 5;
+}
+.type21 .ourblog .blog-creative-hobbies .tab-hobbies {
+  padding: 0 5px;
+}
+.type21 .ourblog .blog-creative-hobbies .crative-hobbies {
+  margin-bottom: 0px;
+}
+.type21 .ourblog .blog-creative-hobbies .crative-hobbies a {
+  color: #fff;
+  text-decoration: none;
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .wrap_border {
+    border: 1px solid #e5e5e5;
+  }
+  .wrap_border .thumbnail {
+    display: block;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border-radius: 4px;
+    transition: border .2s ease-in-out;
+    border: none;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    overflow: hidden;
+  }
+  .blog-new-label {
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 768px) {
+  .blog-new-label {
+    margin-top: 20px;
+    margin-left: 120px;
+  }
+  .blog-creative-hobbies {
+    margin-left: 120px;
+  }
+}
+@media screen and (min-width: 650px) and (max-width: 699px) {
+  .blog-new-label {
+    margin-top: 20px;
+    margin-left: 80px;
+  }
+  .blog-creative-hobbies {
+    margin-left: 80px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 649px) {
+  .blog-new-label {
+    margin-top: 20px;
+    margin-left: 60px;
+  }
+  .blog-creative-hobbies {
+    margin-left: 60px;
+  }
+}
+@media screen and (min-width: 545px) and (max-width: 599px) {
+  .blog-new-label {
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+  .blog-creative-hobbies {
+    margin-left: 40px;
+  }
+}
