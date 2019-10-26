@@ -1,0 +1,173 @@
+.type19 .title {
+  padding-top: 20px;
+  color: #d45a5a;
+  font-size: 25px;
+}
+.type19 .tabs .tab {
+  display: none;
+  width: 100%;
+  min-height: 250px;
+  height: auto;
+  border-radius: 3px;
+  padding: 0 30px;
+  clear: both;
+}
+.type19 .tabs .tab p {
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+.type19 .tabs .tab .block-des {
+  display: none;
+}
+.type19 .tabs .tab .name-ourteam {
+  padding-top: 15px;
+  color: #d45a5a;
+}
+.type19 .tabs .tab .pos-ourteam {
+  color: #d45a5a;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e7e7e7;
+}
+.type19 .tabs .tab .infor-ourteam {
+  color: #0035ff;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.type19 .tabs .tab .follow-ourteam {
+  color: #0035ff;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.type19 .tabs .tab .follow-icon {
+  font-size: 20px;
+}
+.type19 .tabs .tab .follow-icon .follow-item {
+  border-radius: 0;
+  border: 1px solid #d45a5a;
+  padding: 10px;
+  color: #d45a5a;
+}
+.type19 .tabs .tab .follow-icon .follow-item:hover {
+  background: #d45a5a;
+  color: #fff;
+}
+.type19 .tabs .active {
+  display: block !important;
+}
+.type19 .tabs .active a {
+  color: #d45a5a;
+}
+.type19 .tabs .tabs-list .tab-active {
+  border: 2px solid #EDEDED;
+  padding: 15px;
+  margin-top: 20px;
+}
+.type19 .tabs .tab-active a {
+  text-decoration: none;
+}
+.type19 .tabs .tab-active a:hover {
+  color: #d45a5a;
+}
+.type19 .tabs .tabs-list .active {
+  border: 2px solid #B99D6B;
+}
+.type19 .tabs .tabs-list .tab-active:hover {
+  border: 2px solid #B99D6B;
+}
+.type19 .img-team {
+  float: left;
+  padding-right: 20px;
+}
+.type19 .btn-ourteam {
+  margin-top: 20px;
+  border: 2px solid #d45a5a;
+  padding: 10px;
+  background: #fff;
+  color: #d45a5a;
+}
+.type19 a .btn-ourteam:hover {
+  border: 2px solid #d45a5a;
+  padding: 10px;
+  background: #d45a5a;
+  color: #fff;
+}
+.jumbotron {
+  margin-top: 20px;
+}
+.jumbotron .p-3 {
+  padding: 1.2rem !important;
+}
+.jumbotron .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 2px solid rgba(0,0,0,0.125);
+  border-radius: .25rem;
+}
+.jumbotron .card .my-card {
+  position: absolute;
+  left: 40%;
+  top: -20px;
+  border-radius: 50%;
+}
+.jumbotron .card .shadow {
+  box-shadow: 0 .5rem 2rem rgba(0,0,0,0.15) !important;
+}
+.jumbotron .card .text-center {
+  text-align: center !important;
+}
+.jumbotron .card .text-center .mt-h4 {
+  font-size: 25px;
+}
+.jumbotron .card .text-center .counter {
+  font-size: 28px;
+}
+.jumbotron .svg-inline--fa.fa-w-16 {
+  font-size: 20px;
+}
+.jumbotron .svg-inline--fa.fa-w-18 {
+  font-size: 20px;
+}
+.jumbotron .border-info {
+  border-color: #17a2b8 !important;
+}
+.jumbotron .border-success {
+  border-color: #28a745 !important;
+}
+.jumbotron .border-danger {
+  border-color: #dc3545 !important;
+}
+.jumbotron .border-warning {
+  border-color: #ffc107 !important;
+}
+.jumbotron .mt-3,
+.jumbotron .my-3 {
+  margin-top: 20px !important;
+}
+.jumbotron .mt-2,
+.jumbotron .my-2 {
+  margin-top: -10px !important;
+}
+@media screen and (max-width: 992px) {
+  .my-card {
+    position: absolute;
+    left: 45%;
+    top: -20px;
+    border-radius: 50%;
+  }
+  .col-counter {
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .block-des {
+    font-size: 25px;
+    color: #d45a5a;
+    display: block !important;
+    padding: 15px 0;
+  }
+}

@@ -1,0 +1,95 @@
+/*Variable*/
+@bg-footer: #adb0b5;
+@bg-footerq: #3a3331;
+@range-footer: 120px;
+@range: 20px;
+@mid: center;
+@color-bl: #000;
+@color-wh: #fff;
+@color-red: red;
+@value: 0;
+@border-end: 1px solid @color-wh;
+
+.end-footer {
+  background: @bg-footer;
+  .img-footerwid {
+    margin: @value auto;
+    width: @range-footer + 30;
+    height: @range-footer;
+  }
+  .footer-icon {
+    text-align: @mid;
+    padding-top: @range;
+    padding-bottom: @range + 10;
+    .svg-inline--fa {
+      font-size: @range;
+    }
+    a {
+      color: @color-bl;
+    }
+    a:hover {
+      color:@color-wh;
+    }
+  }
+  .footer-start {
+    color: @color-wh;
+  }
+  .footer-fora a{
+      text-decoration: none;
+      color: @bg-footerq;
+  }
+  .footer-fora a:hover{
+      text-decoration: none;
+      color: @color-wh;
+  }
+  .kc-footer {
+    padding-bottom: @range + 5;
+  }
+  .fa-location-arrow {
+    margin-right: @range - 10;
+  }
+  .fa-mobile-alt {
+    margin-right: @range - 3;
+  }
+  .col-footer-padding {
+    padding-right: @value;
+  }
+  .tag-container-tx {
+    padding-bottom: @range + 50;
+    border-bottom: @border-end;
+  }
+  .designer-footer {
+    position: fixed;
+    background: @bg-footer;
+    font-size: 1.3em;
+    padding: 10px; 
+    border: 2px solid @bg-footer;
+    margin-top: 220px;
+  }
+  .designer-footer:hover {
+    background: #b5d568;
+  }
+  .designer-footer a{
+    color: @color-wh;
+    text-decoration: none;
+  }
+  .ft-footer {
+    padding: @range @value;
+    text-align: @mid;
+    color: @color-wh;
+  }
+  .team-footer a{
+      color: @color-red;
+      text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 991px)
+{
+  .kc-footer {
+    padding-bottom: @value;
+  }
+  .designer-footer {
+    margin-top: @range - 5;
+  }
+}

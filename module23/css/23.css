@@ -1,0 +1,112 @@
+.type23 {
+  background: -moz-linear-gradient(bottom,#d7d9e5 30%,#fff 70%);
+  background: -o-linear-gradient(bottom,#d7d9e5 30%,#fff 70%);
+  background: -ms-linear-gradient(bottom,#d7d9e5 30%,#fff 70%);
+  background: -webkit-gradient(linear,left bottom,left top,color-stop(0.3,#d7d9e5),color-stop(0.7,#fff));
+}
+.type23 .signup-email {
+  padding-top: 130px;
+  text-align: center;
+  font-size: 18px;
+}
+.type23 .signup-text {
+  padding-top: 40px;
+  text-align: center;
+}
+.type23 .line-product {
+  display: table-row;
+}
+.type23 .line-product .left-line,
+.type23 .line-product .right-line {
+  display: table-cell;
+}
+.type23 .line-product .left-line {
+  padding-right: 20px;
+}
+.type23 .line-product .left-line,
+.type23 .line-product .right-line {
+  vertical-align: middle;
+  width: 50%;
+}
+.type23 .line-product .left-line:after,
+.type23 .line-product .right-line:after {
+  background-color: #d45a5a;
+  content: "";
+  width: 100%;
+  display: inline-block;
+  height: 1px;
+  vertical-align: middle;
+}
+.type23 .line-product .title {
+  white-space: nowrap;
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: bold;
+  color: #d45a5a;
+  font-size: 25px;
+}
+.type23 .line-product .right-line {
+  padding-left: 20px;
+}
+.type23 .form-filed {
+  margin: 40px 100px;
+}
+.type23 .form-filed .input-icon input[type="email"] {
+  font-family: FontAwesome;
+  font-size: 25px;
+  vertical-align: middle;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(129,129,129,0.35);
+  padding-bottom: 3px;
+  box-shadow: none;
+  max-width: 425px;
+  width: 100%;
+  outline: none;
+  float: left;
+}
+.type23 .button-sb {
+  float: left;
+  background: #000000;
+  padding: 10px 50px;
+  color: #ffffff;
+  border: none;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .type23 .signup-email {
+    padding-top: 60px;
+  }
+  .type23 .form-filed {
+    margin: 40px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .type23 .signup-email {
+    padding-top: 20px;
+  }
+  .type23 .form-filed {
+    margin: 20px;
+  }
+  .type23 .input-icon {
+    width: 300px;
+  }
+  .type23 .signup-text {
+    padding-top: 15px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .type23 .img-hoa {
+    display: none;
+  }
+  .type23 .signup-email {
+    padding-top: 0;
+  }
+  .type23 .input-icon {
+    width: 300px;
+  }
+  .type23 .form-filed {
+    margin: 0;
+  }
+}

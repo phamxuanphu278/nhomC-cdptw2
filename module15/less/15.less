@@ -1,0 +1,96 @@
+/* variable*/
+@font: 14px;
+@font-headerh: 10px;
+@range: 100px;
+@background: #f2f2f2;
+@bgblack: #000;
+@bgwhite: #fff;
+@bgred: red;
+@text-align-menu: center;
+@border-menu: 2px solid @bgred;
+@border-menu2: 2px solid @bgblack;
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  .swiper-slide {
+    font-size: @font + 4;
+    background: @background;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: @text-align-menu;
+    -ms-flex-pack: @text-align-menu;
+    -webkit-justify-content: @text-align-menu;
+    justify-content: @text-align-menu;
+    -webkit-box-align: @text-align-menu;
+    -ms-flex-align: @text-align-menu;
+    -webkit-align-items: @text-align-menu;
+    align-items: @text-align-menu;
+    .headerh {
+      padding: @font-headerh * 3 @font-headerh * 2;
+      background: @background;
+      .fonts1 {
+        font-size: @font-headerh * 5;
+      }
+      .span-s2 {
+        font-size: @font-headerh * 4;
+      }
+      .span-s1 {
+        color: @bgred;
+        @extend .span-s2;
+      }
+      .bot-slide {
+        .button-s {
+          background: @bgblack;
+          color:@bgwhite;
+          padding: @font-headerh - 3;
+          border: @border-menu2;
+        }
+        .button-s:hover {
+          background: @bgwhite;
+          color:@bgblack;
+        }
+        .button-x {
+          background: @bgwhite;
+          color: @bgred;
+          padding: @font-headerh - 3;
+          margin-left: @font-headerh * 2;
+          border: @border-menu;
+        }
+        .button-x:hover {
+          background: @bgred;
+          color: @bgwhite;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1200px)
+{
+  .fonts1 {
+      padding-top: @range;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px)
+{
+  .fonts1 {
+      padding-top: @font-headerh * 4;
+    }
+}
+@media screen and (max-width: 991px)
+{
+  .stone-img {
+    margin: 0 auto;
+  }
+  .fonts1 {
+    text-align: @text-align-menu;
+  }
+  .fonts2 {
+    text-align: @text-align-menu;
+  }
+  .bot-slide {
+    text-align: @text-align-menu;
+  }
+}

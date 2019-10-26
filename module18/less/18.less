@@ -1,0 +1,233 @@
+/* Variable */
+@size-jean: 40px;
+@value: 0;
+@size-line: 20px;
+@wh-jean: 50%;
+@wh-jean2: 100%;
+@vertical: middle;
+@bg-color: #d45a5a;
+@text-mid: center;
+@color-wh: #fff;
+@color-ab: #b1b1b1;
+@inherit-jean: inherit;
+@pos-jean: absolute;
+/*CSS*/
+.type18 {
+  .img-slider-jean {
+    padding: @value @size-jean;
+  }
+  .charac-jean {
+    font-size: @size-line - 2;
+  }
+  .line-product {
+    display: table-row;
+    .right-line {
+      display: table-cell;
+      padding-left: @size-line;
+      vertical-align: @vertical;
+      width: @wh-jean2;
+    }
+    .right-line:after {
+      background-color: @bg-color;
+      content: "";
+      width: @wh-jean2;
+      display: inline-block;
+      height: 1px;
+      vertical-align: @vertical;
+    }
+    .left-line {
+      display: none;
+    }
+    .title {
+      white-space: nowrap;
+      margin-bottom: @value;
+      text-align: @text-mid;
+      font-weight: bold;
+      color: @bg-color;
+      font-size: @size-line + 5;  
+    }
+  }
+
+  .row-jean {
+    padding-top: @size-line;
+    .img-icon {
+      width: @wh-jean;
+      height: @wh-jean;
+      margin: @value auto;
+    }
+    .jean-maincharacter {
+      padding-bottom: 5px;
+      font-size: @size-line - 2;
+      color: @bg-color;
+    } 
+  }
+  .btn-goto{
+    margin: @size-line @value;
+    background: @bg-color;
+    color: @color-wh;
+    border: none;
+    height: @size-jean + 10;
+    position: relative;
+    font-size: @size-line + 3;
+    padding: @value @size-line - 5;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+  }
+  .btn-goto:hover{
+    background: @color-wh;
+    color: @bg-color;
+  }
+  .btn-goto:before,.btn-goto:after{
+    content:'';
+    position: @pos-jean;
+    top: @value;
+    right:@value;
+    height:2px;
+    width:@value;
+    background: @bg-color;
+    transition:400ms ease all;
+  }
+  .btn-goto:after{
+    right: @inherit-jean;
+    top: @inherit-jean;
+    left:@value;
+    bottom:@value;
+  }
+  .btn-goto:hover:before,.btn-goto:hover:after{
+    width: @wh-jean2;
+    transition:800ms ease all;
+  }
+  .share-jean {
+    padding-top: @size-line;
+    ul {
+      position: @pos-jean;
+      left: @wh-jean;
+      transform: translate(-50%, 50%);
+      margin: @value;
+      padding: @value;
+      display: flex;
+    }
+    ul li{
+      list-style: none;
+      margin: @value @size-jean;
+    }
+    ul li .fa{
+      font-size: @size-jean;
+      color: #262626;
+      line-height: @size-jean * 2;
+      transition: .5s;
+      vertical-align: @vertical;
+    }
+    ul li a{
+      position: relative;
+      display: block;
+      width: @size-jean * 2;
+      height: @size-jean * 2;
+      background-color: @color-wh;
+      text-align: @text-mid !important;
+      transform: perspective(100px) rotate(-30deg) skew(25deg) translate(0,0);
+      transition: .5s;
+      box-shadow: -20px @size-line 10px rgb(0, 0, 0, 0.5);
+    }
+    ul li a::before{
+      content: "";
+      position: @pos-jean;
+      top: @size-line - 10;
+      left: -20px;
+      height: @wh-jean2;
+      width: @size-line;
+      background: @color-ab;
+      transition: .5s;
+      transform: rotate(0deg) skewY(-45deg);
+    }
+    ul li a::after{
+      content: "";
+      position: @pos-jean;
+      top: @size-jean * 2;
+      left: -11px;
+      height: @size-line;
+      width: @wh-jean2;
+      background: @color-ab;
+      transition: .5s;
+      transform: rotate(0deg) skewX(-45deg);
+    }
+    ul li a:hover{
+      transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
+      box-shadow: -50px 50px 50px rgb(0, 0, 0, 0.5);
+    }
+    ul li:hover .fa{
+    color: @color-wh;
+    }
+    ul li:hover:nth-child(1) a{
+      background: #3b5999;
+    }
+
+    ul li:hover:nth-child(1) a:before{
+      background: #2e4a86;
+    }
+    ul li:hover:nth-child(1) a:after{
+      background: #4a69ad;
+    }
+    ul li:hover:nth-child(2) a{
+      background: #55acee;
+    }
+    ul li:hover:nth-child(2) a:before{
+      background: #4184b7;
+    }
+    ul li:hover:nth-child(2) a:after{
+      background: #4d9fde;
+    }
+    ul li:hover:nth-child(3) a{
+      background: #dd4b39;
+    }
+
+    ul li:hover:nth-child(3) a:before{
+      background: #c13929;
+    }
+    ul li:hover:nth-child(3) a:after{
+      background: #e83322;
+    }
+
+    ul li:hover:nth-child(4) a{
+      background: #0077B5;
+    }
+
+    ul li:hover:nth-child(4) a:before{
+      background: #036aa0;
+    }
+    ul li:hover:nth-child(4) a:after{
+      background: #0d82bf;
+    }
+
+    ul li:hover:nth-child(5) a{
+      background: #e4405f;
+    }
+
+    ul li:hover:nth-child(5) a:before{
+      background: #d02d4c;
+    }
+    ul li:hover:nth-child(5) a:after{
+      background: #f1395c;
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px)
+{
+  .charac-jean {
+    padding-top: @size-line;
+  }
+  .btn-jean {
+    padding-top: @size-line;
+  }
+}
+@media screen and (max-width: 768px) {
+  ul{
+    position: @pos-jean;
+    left: 65%;
+    transform: translate(-50%, 50%);
+    margin: @value;
+    padding: @value;
+    display: flex;
+  }
+}
