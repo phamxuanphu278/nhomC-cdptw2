@@ -1,0 +1,203 @@
+/*Variable*/
+@blog: 20px;
+@blog-size: 40px;
+@blog-size2: 60px;
+@blog-size3: 80px;
+@blog-size4: 120px;
+@txt-center: center;
+@wrap-size: 15px;
+@wrap-size2: 4px;
+@color-white: #fff;
+@line-precent: 50%;
+@bg-color: #d45a5a;
+@none-blog: none;
+@value: 0;
+@size-blog: 12px;
+
+.type21 {
+  .blog-new {
+    font-size: @blog;
+    text-align: @txt-center;
+  }
+  .line-product {
+    display: table-row;
+    .left-line {
+      display: table-cell;
+      vertical-align: middle;
+      width: @line-precent;
+      padding-right: @blog;
+    }
+    .right-line {
+      display: table-cell;
+      vertical-align: middle;
+      width: @line-precent;
+      padding-left: @blog;
+    }
+    .left-line:after, .right-line:after {
+      background-color: @bg-color;
+      content: "";
+      width: 100%;
+      display: inline-block;
+      height: 1px;
+      vertical-align: middle;
+    }
+    .title {
+      white-space: nowrap;
+      margin-bottom: @value;
+      text-align: @txt-center;
+      font-weight: bold;
+      color: @bg-color;
+      font-size: @blog + 5;
+    }
+  }
+  .ourblog {
+      text-align: @txt-center;
+      padding-top: @blog;
+
+      .btnReadMore{
+          margin-top: @blog - 10;
+          background: @color-white;
+          color: @bg-color;
+          border: 2px solid @bg-color;
+      }
+      .btnReadMore:hover{
+          background: @bg-color;
+          color: @color-white;
+      }
+      .font-name{
+          h1{
+              font-size: @blog + 2; 
+              color: #0066cc;
+              a {
+                color: @bg-color;
+                text-decoration: @none-blog;
+              }
+              a:hover {
+                color: #523839;
+              }
+          }
+          .ourlog-a a {
+            text-decoration: @none-blog;
+          }
+          h2{
+              font-size: @blog;
+              color: #003333;
+          }
+      }
+      .thumbnail{ 
+        border: @none-blog; 
+      }
+      .blog-new-label {
+        margin-top: @wrap-size;
+        margin-left: @wrap-size;
+        color: #000;
+        text-align: @txt-center;
+        background-color: @color-white;
+        font-size: @wrap-size + 1;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: @value @size-blog;
+        display: block;
+        position: absolute;
+        top: @value;
+        left: 2;
+        .month-label {
+          text-align: @txt-center;
+          margin-top: -10px;
+          margin-bottom: 5px;
+        }
+        .day-label {
+          text-align: @txt-center;
+          margin-top: @size-blog - 2;
+        }
+      }
+      
+      .blog-creative-hobbies {
+        margin-top: -27px;
+        color: @color-white;
+        text-align: @txt-center;
+        background-color: #d45a5a;
+        font-size: @size-blog;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding:5px @size-blog;
+        display: block;
+        position: absolute;
+        top: 1;
+        left: 5;
+        .tab-hobbies {
+          padding: @value 5px;
+        }
+        .crative-hobbies {
+          margin-bottom: 0px;
+        }
+        .crative-hobbies a{
+          color: @color-white;
+          text-decoration: none;
+        }
+      }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px)
+{ 
+  .wrap_border{ 
+    border: 1px solid #e5e5e5;   
+    .thumbnail{
+        display: block;
+        padding: @wrap-size2;
+        line-height: 1.42857143;
+        background-color: @color-white;
+        border-radius: @wrap-size2;
+        transition: border .2s ease-in-out;
+        border: none;
+        margin-bottom: @wrap-size;
+        margin-top: @wrap-size;
+        overflow: hidden;                 
+    }                    
+  }
+  .blog-new-label { 
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 768px)
+{
+  .blog-new-label { 
+    margin-top: @blog;
+     margin-left: @blog-size4;
+  }
+  .blog-creative-hobbies {
+    margin-left: @blog-size4;
+  }
+}
+@media screen and (min-width: 650px) and (max-width: 699px)
+{
+  .blog-new-label { 
+    margin-top: @blog;
+     margin-left: @blog-size3;
+  }
+  .blog-creative-hobbies {
+    margin-left: @blog-size3;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 649px)
+{
+  .blog-new-label { 
+    margin-top: @blog;
+     margin-left: @blog-size2;
+  }
+  .blog-creative-hobbies {
+    margin-left: @blog-size2;
+  }
+}
+@media screen and (min-width: 545px) and (max-width: 599px)
+{
+  .blog-new-label { 
+    margin-top: @blog;
+    margin-left: @blog-size;
+  }
+  .blog-creative-hobbies {
+    margin-left: @blog-size;
+  }
+}
