@@ -1,0 +1,108 @@
+.type-1 .star-rating {
+  font-size: 1em;
+  margin: 0 0 .5em;
+  color: #aa4243;
+  padding-top: 1em;
+}
+.type-1 .start:hover {
+  color: gold;
+}
+.type-1 .form-control {
+  width: 70px;
+  height: 49px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  background: #f3f3f3;
+}
+.type-1 .cart {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}
+.type-1 .cart .btn-danger {
+  padding: 13px;
+  background: #000000;
+  border: 1px solid #000000;
+}
+.type-1 img {
+  width: 100%;
+}
+.type-1 h1 {
+  font-size: 35px;
+  font-weight: normal;
+  color: #454545;
+  font-family: "Open Sans Condensed";
+}
+.type-1 .link {
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.type-1 .link a {
+  text-decoration: none;
+}
+.type-1 a {
+  font-size: 1em;
+  color: #777;
+  text-decoration: none;
+}
+.type-1 a:hover {
+  color: #bd2222;
+  text-decoration: none;
+}
+.type-1 .posted_in {
+  color: #808080;
+}
+.type-1 .price p {
+  color: #1aada3;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.type-1 .content p {
+  margin-bottom: 20px;
+  font-family: "Open Sans";
+  color: #808080;
+  font-size: 15px;
+  line-height: 1.7;
+}
+.type-1 html,
+.type-1 body {
+  position: relative;
+  height: 100%;
+}
+.type-1 body {
+  background: #000;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.type-1 .swiper-container {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.type-1 .swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+.type-1 .gallery-top {
+  height: 80%;
+  width: 100%;
+}
+.type-1 .gallery-thumbs {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+.type-1 .gallery-thumbs .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+.type-1 .gallery-thumbs .swiper-slide-thumb-active {
+  opacity: 1;
+}
