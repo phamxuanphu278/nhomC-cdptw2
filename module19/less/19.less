@@ -1,0 +1,190 @@
+@size-ourteam: 20px;
+@bg-color: #d45a5a;
+@value: 0;
+@size-tabs: 15px;
+@size-tab: 10px;
+@color-our: #0035ff;
+@color-white: #fff;
+@border-tab: 2px solid #B99D6B;
+.type19{
+    .title {
+        padding-top: @size-ourteam;
+        color: @bg-color;
+        font-size: @size-ourteam + 5;
+    }
+    .tabs{
+        .tab{
+            display:none;
+            width:100%;
+            min-height:250px;
+            height:auto;
+            border-radius:3px;
+            padding: @value @size-tabs * 2;
+            clear:both;
+            p{
+                line-height: @size-ourteam;
+                letter-spacing: 1px;
+            }
+            .block-des {
+                display: none;
+            }
+            .name-ourteam {
+                padding-top: @size-tabs;
+                color: @bg-color;
+            }
+            .pos-ourteam {
+                color: @bg-color;
+                padding-bottom: @size-tabs;
+                border-bottom: 1px solid #e7e7e7;
+            }
+            .infor-ourteam {
+                color: @color-our;
+                font-size: @size-ourteam;
+                padding-bottom: @size-tab;
+            }
+            .follow-ourteam {
+                color: @color-our;
+                font-size: @size-ourteam;
+                padding-bottom: @size-tab;
+            }
+            .follow-icon {
+                font-size: @size-ourteam;
+                .follow-item {
+                    border-radius: @value;
+                    border: 1px solid @bg-color;
+                    padding: @size-tab;
+                    color: @bg-color;
+                }
+                .follow-item:hover {
+                    background: @bg-color;
+                    color: @color-white;
+                }
+            }
+        }
+        .active{
+            display:block !important;
+        }
+        .active a{
+            color: @bg-color;
+        }
+        .tabs-list .tab-active{
+            border: 2px solid #EDEDED;
+            padding: @size-tabs;
+            margin-top: @size-ourteam;
+        }
+        .tab-active a {
+            text-decoration: none;
+        }
+        .tab-active a:hover {
+            color: @bg-color;
+        }
+        .tabs-list .active{
+            border: @border-tab;
+        }
+        .tabs-list .tab-active:hover {
+            border: @border-tab;
+        }
+    } 
+
+    .img-team {
+        float: left;
+        padding-right: @size-ourteam;
+    }
+    .btn-ourteam {
+        margin-top: @size-ourteam;
+        border: 2px solid @bg-color;
+        padding: @size-tab;
+        background: @color-white;
+        color: @bg-color;
+    }
+    a .btn-ourteam:hover {
+        border: 2px solid @bg-color;
+        padding: @size-tab;
+        background: @bg-color;
+        color: @color-white;
+    }
+}
+.jumbotron {
+    margin-top: @size-ourteam;
+    .p-3 {
+        padding: 1.2rem !important;
+    }
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: @color-white;
+        background-clip: border-box;
+        border: 2px solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+        .my-card
+        {
+            position:absolute;
+            left:40%;
+            top:-20px;
+            border-radius:50%;
+        }
+        .shadow {
+            box-shadow: 0 .5rem 2rem rgba(0,0,0,.15) !important;
+        }
+        .text-center {
+            text-align: center !important;
+            .mt-h4 {
+              font-size: @size-ourteam + 5;
+            }
+            .counter {
+              font-size: @size-ourteam + 8;
+            }
+        }
+    }
+    .svg-inline--fa.fa-w-16 {
+      font-size: @size-ourteam;
+    }
+    .svg-inline--fa.fa-w-18 {
+      font-size: @size-ourteam;
+    }
+    .border-info {
+        border-color: #17a2b8 !important;
+    }
+    .border-success {
+        border-color: #28a745 !important;
+    }
+    .border-danger {
+        border-color: #dc3545 !important;
+    }
+    .border-warning {
+        border-color: #ffc107 !important;
+    }
+    .mt-3, .my-3 {
+        margin-top: @size-ourteam !important;
+    }
+    .mt-2, .my-2 {
+        margin-top: -10px !important;
+    }
+}
+
+
+@media screen and (max-width: 992px)
+{
+  .my-card
+    {
+        position:absolute;
+        left:45%;
+        top:-20px;
+        border-radius:50%;
+    }
+    .col-counter {
+      padding-top: @size-ourteam + 10;
+    }
+}
+@media screen and (max-width: 768px)
+{
+    .block-des {
+        font-size: @size-ourteam + 5;
+        color: @bg-color;
+        display: block !important;
+        padding: @size-tabs @value;
+    }
+}

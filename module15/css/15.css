@@ -1,0 +1,78 @@
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-container .swiper-slide {
+  font-size: 18px;
+  background: #f2f2f2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-container .swiper-slide .headerh {
+  padding: 30px 20px;
+  background: #f2f2f2;
+}
+.swiper-container .swiper-slide .headerh .fonts1 {
+  font-size: 50px;
+}
+.swiper-container .swiper-slide .headerh .span-s2 {
+  font-size: 40px;
+}
+.swiper-container .swiper-slide .headerh .span-s1 {
+  color: red;
+}
+.swiper-container .swiper-slide .headerh .bot-slide .button-s {
+  background: #000;
+  color: #fff;
+  padding: 7px;
+  border: 2px solid #000;
+}
+.swiper-container .swiper-slide .headerh .bot-slide .button-s:hover {
+  background: #fff;
+  color: #000;
+}
+.swiper-container .swiper-slide .headerh .bot-slide .button-x {
+  background: #fff;
+  color: red;
+  padding: 7px;
+  margin-left: 20px;
+  border: 2px solid red;
+}
+.swiper-container .swiper-slide .headerh .bot-slide .button-x:hover {
+  background: red;
+  color: #fff;
+}
+@media screen and (min-width: 1200px) {
+  .fonts1 {
+    padding-top: 100px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .fonts1 {
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .stone-img {
+    margin: 0 auto;
+  }
+  .fonts1 {
+    text-align: center;
+  }
+  .fonts2 {
+    text-align: center;
+  }
+  .bot-slide {
+    text-align: center;
+  }
+}

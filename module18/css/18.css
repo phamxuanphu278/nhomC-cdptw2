@@ -1,0 +1,211 @@
+.type18 .img-slider-jean {
+  padding: 0 40px;
+}
+.type18 .charac-jean {
+  font-size: 18px;
+}
+.type18 .line-product {
+  display: table-row;
+}
+.type18 .line-product .right-line {
+  display: table-cell;
+  padding-left: 20px;
+  vertical-align: middle;
+  width: 100%;
+}
+.type18 .line-product .right-line:after {
+  background-color: #d45a5a;
+  content: "";
+  width: 100%;
+  display: inline-block;
+  height: 1px;
+  vertical-align: middle;
+}
+.type18 .line-product .left-line {
+  display: none;
+}
+.type18 .line-product .title {
+  white-space: nowrap;
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: bold;
+  color: #d45a5a;
+  font-size: 25px;
+}
+.type18 .row-jean {
+  padding-top: 20px;
+}
+.type18 .row-jean .img-icon {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+}
+.type18 .row-jean .jean-maincharacter {
+  padding-bottom: 5px;
+  font-size: 18px;
+  color: #d45a5a;
+}
+.type18 .btn-goto {
+  margin: 20px 0;
+  background: #d45a5a;
+  color: #fff;
+  border: none;
+  height: 50px;
+  position: relative;
+  font-size: 23px;
+  padding: 0 15px;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+}
+.type18 .btn-goto:hover {
+  background: #fff;
+  color: #d45a5a;
+}
+.type18 .btn-goto:before,
+.type18 .btn-goto:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #d45a5a;
+  transition: 400ms ease all;
+}
+.type18 .btn-goto:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.type18 .btn-goto:hover:before,
+.type18 .btn-goto:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+.type18 .share-jean {
+  padding-top: 20px;
+}
+.type18 .share-jean ul {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,50%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.type18 .share-jean ul li {
+  list-style: none;
+  margin: 0 40px;
+}
+.type18 .share-jean ul li .fa {
+  font-size: 40px;
+  color: #262626;
+  line-height: 80px;
+  transition: .5s;
+  vertical-align: middle;
+}
+.type18 .share-jean ul li a {
+  position: relative;
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  text-align: center !important;
+  transform: perspective(100px) rotate(-30deg) skew(25deg) translate(0,0);
+  transition: .5s;
+  box-shadow: -20px 20px 10px rgba(0,0,0,0.5);
+}
+.type18 .share-jean ul li a::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  height: 100%;
+  width: 20px;
+  background: #b1b1b1;
+  transition: .5s;
+  transform: rotate(0deg) skewY(-45deg);
+}
+.type18 .share-jean ul li a::after {
+  content: "";
+  position: absolute;
+  top: 80px;
+  left: -11px;
+  height: 20px;
+  width: 100%;
+  background: #b1b1b1;
+  transition: .5s;
+  transform: rotate(0deg) skewX(-45deg);
+}
+.type18 .share-jean ul li a:hover {
+  transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px,-20px);
+  box-shadow: -50px 50px 50px rgba(0,0,0,0.5);
+}
+.type18 .share-jean ul li:hover .fa {
+  color: #fff;
+}
+.type18 .share-jean ul li:hover:nth-child(1) a {
+  background: #3b5999;
+}
+.type18 .share-jean ul li:hover:nth-child(1) a:before {
+  background: #2e4a86;
+}
+.type18 .share-jean ul li:hover:nth-child(1) a:after {
+  background: #4a69ad;
+}
+.type18 .share-jean ul li:hover:nth-child(2) a {
+  background: #55acee;
+}
+.type18 .share-jean ul li:hover:nth-child(2) a:before {
+  background: #4184b7;
+}
+.type18 .share-jean ul li:hover:nth-child(2) a:after {
+  background: #4d9fde;
+}
+.type18 .share-jean ul li:hover:nth-child(3) a {
+  background: #dd4b39;
+}
+.type18 .share-jean ul li:hover:nth-child(3) a:before {
+  background: #c13929;
+}
+.type18 .share-jean ul li:hover:nth-child(3) a:after {
+  background: #e83322;
+}
+.type18 .share-jean ul li:hover:nth-child(4) a {
+  background: #0077B5;
+}
+.type18 .share-jean ul li:hover:nth-child(4) a:before {
+  background: #036aa0;
+}
+.type18 .share-jean ul li:hover:nth-child(4) a:after {
+  background: #0d82bf;
+}
+.type18 .share-jean ul li:hover:nth-child(5) a {
+  background: #e4405f;
+}
+.type18 .share-jean ul li:hover:nth-child(5) a:before {
+  background: #d02d4c;
+}
+.type18 .share-jean ul li:hover:nth-child(5) a:after {
+  background: #f1395c;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .charac-jean {
+    padding-top: 20px;
+  }
+  .btn-jean {
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  ul {
+    position: absolute;
+    left: 65%;
+    transform: translate(-50%,50%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+}

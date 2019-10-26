@@ -1,0 +1,106 @@
+.contact-us .contact {
+  padding-left: 15px!important;
+}
+.contact-us .col-md-6 {
+  padding-left: unset;
+  padding-right: unset;
+}
+.contact-us .col-md-6 .contact-right {
+  background-image: url(../images/land.png) !important;
+  background-position: center!important;
+  background: #021019;
+  padding: 20px 35px;
+}
+.contact-us .col-md-6 .contact-right h1 {
+  color: #ffffff;
+  font-size: 44px;
+  font-weight: bold;
+  display: inline-block;
+  border-bottom: 3px solid #ffffff;
+}
+.contact-us .col-md-6 .contact-right .info-box {
+  margin: 20px;
+  margin-left: -20px;
+}
+.contact-us .col-md-6 .contact-right .info-box li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 5px;
+}
+.contact-us .col-md-6 .contact-right .info-box .box-icon .icon {
+  font-size: 40px;
+  color: #ffffff;
+}
+.contact-us .col-md-6 .contact-right .info-box .box-content p {
+  color: rgba(255, 255, 255, 0.8);
+}
+.contact-us .col-md-6 .contact-right .form-contact {
+  margin: 13px;
+}
+.contact-us .col-md-6 .contact-right .form-contact .col-md-6 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.contact-us .col-md-6 .contact-right .form-contact .your-text {
+  color: #ffffff;
+}
+.contact-us .col-md-6 .contact-right .form-contact .your-message {
+  color: #ffffff;
+}
+.contact-us .col-md-6 .contact-right .form-contact input {
+  box-shadow: none;
+  border-color: rgba(255, 255, 255, 0.4);
+  background-color: transparent;
+  color: #ffffff;
+}
+.contact-us .col-md-6 .contact-right .form-contact textarea {
+  box-shadow: none;
+  border-color: rgba(255, 255, 255, 0.4);
+  background-color: transparent;
+  color: #ffffff;
+  height: 182px;
+}
+.contact-us .col-md-6 .contact-right .form-contact .send {
+  margin: 15px;
+  margin-top: 20px;
+  margin-left: 0;
+}
+.contact-us .col-md-6 .contact-right .form-contact .send input {
+  padding: 10px 10px;
+  border: 1px solid #ffffff;
+  background: #021019;
+}
+.contact-us .col-md-6 .contact-right .form-contact .send input:hover {
+  background: #ffffff;
+  color: #000000;
+}
+.contact-us .col-md-6 .contact-right .form-contact .icon-share ul li {
+  list-style: none;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+  margin-left: -40px;
+  margin-right: 55px;
+}
+.contact-us .col-md-6 .contact-right .form-contact .icon-share .social-facebook {
+  background-color: #365493;
+  border-radius: 50%;
+  color: #ffffff;
+}
+.contact-us .col-md-6 .contact-right .form-contact .icon-share .social-twitter {
+  background-color: #3CF;
+  border-radius: 50%;
+  color: #ffffff;
+}
+.contact-us .col-md-6 .contact-right .form-contact .icon-share .social-email {
+  background-color: #F89A1E;
+  border-radius: 50%;
+  color: #ffffff;
+}
+.contact-us .col-md-6 .contact-right .form-contact .icon-share .social-in {
+  background-color: #0274b3;
+  border-radius: 50%;
+  color: #ffffff;
+}
