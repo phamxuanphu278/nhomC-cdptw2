@@ -29,7 +29,7 @@ $less->compileFile('public/less/9.less', 'public/less/9.css');
             <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script> -->
             <script src="<?php echo $url_path ?>/public/js/jquery-3.1.1.min.js"></script>
             <script src="<?php echo $url_path ?>/public/js/bootstrap.min.js"></script>
-            <title>Modul 7</title>
+            <title>Modul 9</title>
     </head>
 
     <body>
