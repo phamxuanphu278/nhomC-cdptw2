@@ -1,0 +1,68 @@
+body {
+  background: #e7e7e7;
+}
+.hookah {
+	font-weight: bold;
+	text-align: center;
+}
+.lounge {
+  text-align: center;
+  font-style: italic;
+  font-family: 'Grand Hotel',cursive;
+  margin-top: -10px;
+}
+.hookah-txt {
+	text-align: center;
+	margin-top: 20px;
+}
+.btn-hookah {
+	text-align: center;
+}
+.btn-hookah a .btn-shop {
+  text-decoration: none;
+  border: 2px solid #d45a5a;
+  font-size: 20px;
+  padding: 5px 10px;
+  background: #d45a5a;
+  color: #fff;
+}
+.btn-hookah a:hover .btn-shop{
+  color: #d45a5a;
+  background: #fff;
+}
+.elo {
+	width: 100%;
+}
+.light-box {
+  margin: 20px;
+  
+}
+.hes-gallery img {
+  width: 100%;
+  padding: 15px 0;
+  object-fit: cover;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.card-container {
+  padding-top: 50px;
+}
+
+@media (max-width: 800px) {
+  main {
+    width: 100%;
+  }
+  header img {
+    width: 80%;
+    object-fit: contain;
+  }
+  .hes-gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .hes-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
