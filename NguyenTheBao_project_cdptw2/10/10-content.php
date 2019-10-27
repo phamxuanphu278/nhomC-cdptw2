@@ -44,9 +44,9 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div id="basel-recent-posts-2" class="sidebar-widget basel-recent-posts">
                                 <h5 class="widget-title">Recent Posts</h5>
                                 <ul class="basel-recent-posts-list">
-                                    <li> <a class="recent-posts-thumbnail" href="#" rel="bookmark"> <img class="attachment-large wp-post-image " src="https://xtemos1.r.worldssl.net/basel/wp-content/uploads/2015/08/blog-new-17-70x70.jpg" width="70" height="70" alt="blog-new-17" title="blog-new-17"> </a>
+                                    <li> <a class="recent-posts-thumbnail" href="../6/6.php" rel="bookmark"> <img class="attachment-large wp-post-image " src="./public/images/vans_supreme_small.jpg" width="70" height="70" alt="blog-new-1" title="blog-new-17"> </a>
                                         <div class="recent-posts-info">
-                                            <h5 class="entry-title"><a href="#" title="Permalink to Venenatis veulum peus" rel="bookmark">Venenatis veulum peus</a></h5><time class="recent-posts-time" datetime="2015-08-08T11:55:46+00:00">August 8, 2015</time>
+                                            <h5 class="entry-title"><a href="../6/6.php" title="Vans and Supreme" rel="bookmark">Vans and supreme</a></h5><time class="recent-posts-time" datetime="2015-08-08T11:55:46+00:00">August 8, 2015</time>
                                         </div>
                                     </li>
                                     <li> <a class="recent-posts-thumbnail" href="#" rel="bookmark"> <img class="attachment-large wp-post-image " src="https://xtemos2.r.worldssl.net/basel/wp-content/uploads/2015/08/blog-new-1-70x70.jpg" width="70" height="70" alt="blog-new-1" title="blog-new-1"> </a>
