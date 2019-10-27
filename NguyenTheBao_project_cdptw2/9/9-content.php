@@ -73,14 +73,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     <p>Cras vestibulum nec scelerisque mauris id nisi consectetur mi id ipsum justo ad a fringilla a parturient.Ante a vel cubilia ut dignissim a adipiscing nisl mus eleifend volutpat vestibulum suspendisse a.Adipiscing vivamus venenatis eleifend tellus parturient ullamcorper felis lobortis hendrerit ipsum nisl ut lobortis ipsum scelerisque parturient.Condimentum accumsan augue id a magnis a condimentum hac himenaeos ac malesuada nibh eros ipsum suspendisse integer.</p>
                                                 </div>
                                             </div>
-                                            <div class="vc_empty_space" style="height: 15px"><span class="vc_empty_space_inner"></span></div>
-                                            <div class="basel-button-wrapper text-center"><a class="btn btn-color-black btn-style-bordered btn-size-small">VIEW MORE PRODUCTS</a></div>
-                                            <div class="vc_empty_space" style="height: 25px"><span class="vc_empty_space_inner"></span></div>
-                                            <div class="wpb_text_column wpb_content_element">
-                                                <div class="wpb_wrapper">
-                                                    <p>Scelerisque felis a sociosqu ridiculus pharetra fames praesent vivamus magna mus suspe ndisse quis bibendum diam at eleifend condimentum habitant senectus. Gravida ullam corper adipiscing partu rient non faucibus sociis diam mi dictumst porta proin primis magna netus platea quis rhoncus quis vestibulum eros lacinia dictum fermentum praesent. A in lorem vestibulum ut odio lacus at suspendisse habitant cras integer condi mentum et dui a leo ornare scelerisque.</p>
-                                                </div>
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                 </div>

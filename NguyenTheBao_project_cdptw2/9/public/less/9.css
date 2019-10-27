@@ -233,10 +233,14 @@ ul {
 }
 .website-wrapper .item img {
   max-width: 100%;
+  margin-bottom: 35px;
 }
 .website-wrapper .vc_row {
   margin-left: -15px;
   margin-right: -15px;
+}
+.website-wrapper .vc_row:after {
+  clear: both;
 }
 .website-wrapper .vc_row:after,
 .website-wrapper .vc_row:before {
