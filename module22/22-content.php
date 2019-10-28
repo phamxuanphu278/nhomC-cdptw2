@@ -18,10 +18,10 @@ $url_path = str_replace('\\', '/', $url_path);
     <p class="txt-hookah"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam harum minima quo assumenda tempora hic quod expedita libero, beatae voluptatum, aperiam totam vitae sint fugiat, quibusdam. Amet, nam, rem! Impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam harum minima quo assumenda tempora</p>
       <div class="row">
         <div class="awesome-project-content">
-          <div class="col-md-4 col-sm-4 col-xs-12 design development">
+          <div class="col-md-4 col-sm-6 col-xs-12 design development">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="images/1.jpg" alt="" /></a>
+                <a href="#"><img src="images/1.jpg" alt="" class="img-responsive img-hookah" /></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
                     <a class="venobox" data-gall="myGallery" href="images/1.jpg">
@@ -33,10 +33,10 @@ $url_path = str_replace('\\', '/', $url_path);
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-4 col-xs-12 photo">
+          <div class="col-md-4 col-sm-6 col-xs-12 photo">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="images/2.jpg" alt="" /></a>
+                <a href="#"><img src="images/2.jpg" alt="" class="img-responsive img-hookah"/></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
                     <a class="venobox" data-gall="myGallery" href="images/2.jpg">
@@ -48,10 +48,10 @@ $url_path = str_replace('\\', '/', $url_path);
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-4 col-xs-12 design">
+          <div class="col-md-4 col-sm-6 col-xs-12 design">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="images/3.jpg" alt="" /></a>
+                <a href="#"><img src="images/3.jpg" alt="" class="img-responsive img-hookah"/></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
                     <a class="venobox" data-gall="myGallery" href="images/3.jpg">
@@ -63,10 +63,10 @@ $url_path = str_replace('\\', '/', $url_path);
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-4 col-xs-12 photo development">
+          <div class="col-md-4 col-sm-6 col-xs-12 photo development">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="images/4.jpg" alt="" /></a>
+                <a href="#"><img src="images/4.jpg" alt="" class="img-responsive img-hookah"/></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
                     <a class="venobox" data-gall="myGallery" href="images/4.jpg">
@@ -78,10 +78,10 @@ $url_path = str_replace('\\', '/', $url_path);
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-4 col-xs-12 development">
+          <div class="col-md-4 col-sm-6 col-xs-12 development">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="images/5.jpg" alt="" /></a>
+                <a href="#"><img src="images/5.jpg" alt="" class="img-responsive img-hookah"/></a>
                 <div class="add-actions text-center text-center">
                   <div class="project-dec">
                     <a class="venobox" data-gall="myGallery" href="images/5.jpg">
@@ -93,10 +93,10 @@ $url_path = str_replace('\\', '/', $url_path);
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-4 col-xs-12 design photo">
+          <div class="col-md-4 col-sm-6 col-xs-12 design photo">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="images/6.jpg" alt="" /></a>
+                <a href="#"><img src="images/6.jpg" alt="" class="img-responsive img-hookah"/></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
                     <a class="venobox" data-gall="myGallery" href="images/6.jpg">

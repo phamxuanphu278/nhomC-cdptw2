@@ -49,10 +49,10 @@
 }
 .end-footer .designer-footer {
   position: fixed;
-  background: #adb0b5;
   font-size: 1.3em;
   padding: 10px;
   border: 2px solid #adb0b5;
+  background: #adb0b5;
   margin-top: 220px;
 }
 .end-footer .designer-footer:hover {

@@ -1,48 +1,57 @@
+/*Variables*/
+@txt-hookah: center;
+@value: 0;
+@pixel: 100%;
+@bg-colorwh: #fff;
+@bg-color: #d45a5a;
+@bl-display: block;
+@color-ddd: #ddd;
+@size-hookah: 10px;
 .hookah {
-  text-align: center;
+  text-align: @txt-hookah;
   font-weight: bold;
 }
 .lounge {
-  text-align: center;
+  text-align: @txt-hookah;
   margin-top: -10px;
 }
 .txt-hookah{
-  text-align: center;
-  font-size: 16px;
-  padding: 20px 0;
+  text-align: @txt-hookah;
+  font-size: @size-hookah + 6;
+  padding: @size-hookah + 10 @value;
 }
 .btn-button {
-  text-align: center;
+  text-align: @txt-hookah;
 }
 .button-shop{
-  margin-bottom: 10px;
-  padding: 10px 15px;
-  font-size: 18px;
+  margin-bottom: @size-hookah;
+  padding: @size-hookah @size-hookah + 5;
+  font-size: @size-hookah + 8;
 }
 .btn-button a .button-shop {
-  border: 2px solid #d45a5a;
-  color: #d45a5a;
-  background: #fff;
+  border: 2px solid @bg-color;
+  color: @bg-color;
+  background: @bg-colorwh;
 }
 .btn-button a:hover .button-shop {
-  background: #d45a5a;
-  color: #fff;
+  background: @bg-color;
+  color: @bg-colorwh;
 }
-img {
-  max-width: 100%;
+.img-hookah {
+  max-width: @pixel;
   height: auto;
 }
 .single-awesome-project {
-  margin-bottom: 30px;
+  margin-bottom: @size-hookah * 3;
 }
 .awesome-img {
-  display: block;
-  width: 100%;
-  height: 100%;
+  display: @bl-display;
+  width: @pixel;
+  height: @pixel;
   position: relative;
 }
 .awesome-img>a {
-  display: block;
+  display: @bl-display;
   position: relative;
   text-decoration: none;
 }
@@ -51,50 +60,50 @@ img {
 }
 .single-awesome-project:hover .add-actions {
   opacity: 1;
-  bottom: 0;
+  bottom: @value;
 }
 .awesome-img>a::after {
   background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
   content: "";
-  height: 100%;
-  left: 0;
+  height: @pixel;
+  left: @value;
   position: absolute;
-  top: 0;
-  width: 100%;
-  opacity: 0;
+  top: @value;
+  width: @pixel;
+  opacity: @value;
   transition: 0.4s;
 }
 .add-actions {
   background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
-  bottom: 30px;
-  display: block;
-  height: 100%;
-  left: 0;
-  opacity: 0;
+  bottom: @size-hookah * 3;
+  display:@bl-display;
+  height: @pixel;
+  left: @value;
+  opacity: @value;
   overflow: hidden;
-  padding: 10px 15px;
+  padding: @size-hookah @size-hookah + 5;
   position: absolute;
   transition: all 0.4s ease 0s;
-  width: 100%;
+  width: @pixel;
 }
 .project-dec {
-  display: block;
-  height: 100%;
-  width: 100%;
+  display: @bl-display;
+  height: @pixel;
+  width: @pixel;
 }
 .project-dec a {
-  display: block;
-  height: 100%;
-  width: 100%;
+  display: @bl-display;
+  height: @pixel;
+  width: @pixel;
 }
 .project-dec h4 {
-  margin-bottom: 5px;
+  margin-bottom: @size-hookah/2;
 }
 .project-dec h4:hover {
-  color: #fff;
+  color: @bg-colorwh;
 }
 .project-dec h4 {
-  color: #ddd;
+  color: @color-ddd;
   font-size: 20px;
   margin-top: -45px;
   padding-top: 50%;
@@ -103,23 +112,29 @@ img {
   font-weight: 800;
 }
 .project-dec span {
-  color: #ddd;
-  font-size: 16px;
+  color: @color-ddd;
+  font-size: @size-hookah + 6;
 }
 .project-action-btn {
-  display: block;
-  height: 100%;
-  text-align: center;
+  display: @bl-display;
+  height: @pixel;
+  text-align: @txt-hookah;
   transition: all 1s ease 0s;
-  width: 100%;
+  width: @pixel;
 }
 .project-action-btn li {
-  display: block;
-  height: 100%;
-  width: 100%;
+  display: @bl-display;
+  height: @pixel;
+  width: @pixel;
 }
 .project-action-btn li a {
-  display: block;
-  height: 100%;
-  width: 100%;
+  display: @bl-display;
+  height: @pixel;
+  width: @pixel;
+}
+@media screen and (min-width: 488px) and (max-width: 768px)
+{
+  .img-hookah {
+    margin: @value auto !important;
+  }
 }
