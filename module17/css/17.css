@@ -30,8 +30,8 @@
   color: #d45a5a;
   font-size: 25px;
 }
-.type17 .line-range {
-  padding: 20px 0;
+.type17 .manex {
+  padding-top: 20px;
 }
 .type17 .line-range .product-sale {
   font-family: Raleway, sans-serif;
@@ -231,19 +231,22 @@
   height: 38px;
   padding: 0 5px;
   text-align: center;
+  border: 0;
   background-color: transparent;
 }
 .type17 .modal-dialog .quantity.buttons_added .minus,
 .type17 .modal-dialog .quantity.buttons_added .plus {
   padding: 7px 10px;
   height: 38px;
-  background-color: #F4F4F4;
-  border: 1px solid #efefef;
+  background: #fff;
+  color: #d45a5a;
+  border: 1px solid #d45a5a;
   cursor: pointer;
 }
 .type17 .modal-dialog .quantity.buttons_added .minus:hover,
 .type17 .modal-dialog .quantity.buttons_added .plus:hover {
-  background: #eeeeee;
+  background: #d45a5a;
+  color: #fff;
 }
 .type17 .modal-dialog .quantity.buttons_added .minus:focus,
 .type17 .modal-dialog .quantity.buttons_added .plus:focus {
@@ -255,6 +258,7 @@
 .type17 .modal-dialog .btn-cart {
   background: #fff;
   color: #d45a5a;
+  padding: 5px;
   border: 2px solid #d45a5a;
 }
 .type17 .modal-dialog .btn-cart:hover {
@@ -266,7 +270,7 @@
   padding-bottom: 15px;
 }
 .type17 .modal-dialog .share-product a {
-  margin: 0 10px;
+  margin: 0 5px;
   color: #b1abab;
 }
 .type17 .modal-dialog .share-product a:hover {
