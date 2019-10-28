@@ -1,10 +1,11 @@
  jQuery(document).ready( function($){
 
-  $(window).on('load', function() {
-    var pre_loader = $('#preloader');
-    pre_loader.fadeOut(3000, function() {
-      $(this).remove();
-    });
+  $(window).on('load', function () {
+    if ($('#preloader').length) {
+      $('#preloader').delay(2000).fadeOut('slow', function () {
+        $(this).remove();
+      });
+    }
   });
 
  var swiper = new Swiper('.swiper-container', {
