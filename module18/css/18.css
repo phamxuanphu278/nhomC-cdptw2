@@ -87,10 +87,15 @@
 .type18 .share-jean {
   padding-top: 20px;
 }
+.type18 .share-jean .title-shared {
+  color: #d45a5a;
+  font-size: 25px;
+  font-weight: bold;
+}
 .type18 .share-jean ul {
   position: absolute;
   left: 50%;
-  transform: translate(-50%,50%);
+  transform: translate(-50%,-90%);
   margin: 0;
   padding: 0;
   display: flex;
@@ -173,24 +178,6 @@
 .type18 .share-jean ul li:hover:nth-child(3) a:after {
   background: #e83322;
 }
-.type18 .share-jean ul li:hover:nth-child(4) a {
-  background: #0077B5;
-}
-.type18 .share-jean ul li:hover:nth-child(4) a:before {
-  background: #036aa0;
-}
-.type18 .share-jean ul li:hover:nth-child(4) a:after {
-  background: #0d82bf;
-}
-.type18 .share-jean ul li:hover:nth-child(5) a {
-  background: #e4405f;
-}
-.type18 .share-jean ul li:hover:nth-child(5) a:before {
-  background: #d02d4c;
-}
-.type18 .share-jean ul li:hover:nth-child(5) a:after {
-  background: #f1395c;
-}
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .charac-jean {
     padding-top: 20px;
@@ -198,14 +185,13 @@
   .btn-jean {
     padding-top: 20px;
   }
+  .img-slider-jean {
+    margin: 0 auto;
+  }
 }
 @media screen and (max-width: 768px) {
   ul {
     position: absolute;
-    left: 65%;
-    transform: translate(-50%,50%);
-    margin: 0;
-    padding: 0;
-    display: flex;
+    transform: translate(-50%,30%) !important;
   }
 }
