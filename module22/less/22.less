@@ -1,68 +1,125 @@
-body {
-  background: #e7e7e7;
-}
 .hookah {
-	font-weight: bold;
-	text-align: center;
+  text-align: center;
+  font-weight: bold;
 }
 .lounge {
   text-align: center;
-  font-style: italic;
-  font-family: 'Grand Hotel',cursive;
   margin-top: -10px;
 }
-.hookah-txt {
-	text-align: center;
-	margin-top: 20px;
+.txt-hookah{
+  text-align: center;
+  font-size: 16px;
+  padding: 20px 0;
 }
-.btn-hookah {
-	text-align: center;
+.btn-button {
+  text-align: center;
 }
-.btn-hookah a .btn-shop {
-  text-decoration: none;
+.button-shop{
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+.btn-button a .button-shop {
   border: 2px solid #d45a5a;
-  font-size: 20px;
-  padding: 5px 10px;
-  background: #d45a5a;
-  color: #fff;
-}
-.btn-hookah a:hover .btn-shop{
   color: #d45a5a;
   background: #fff;
 }
-.elo {
-	width: 100%;
+.btn-button a:hover .button-shop {
+  background: #d45a5a;
+  color: #fff;
 }
-.light-box {
-  margin: 20px;
-  
+img {
+  max-width: 100%;
+  height: auto;
 }
-.hes-gallery img {
+.single-awesome-project {
+  margin-bottom: 30px;
+}
+.awesome-img {
+  display: block;
   width: 100%;
-  padding: 15px 0;
-  object-fit: cover;
-  transition: 0.3s;
-  cursor: pointer;
+  height: 100%;
+  position: relative;
 }
-.card-container {
-  padding-top: 50px;
+.awesome-img>a {
+  display: block;
+  position: relative;
+  text-decoration: none;
 }
-
-@media (max-width: 800px) {
-  main {
-    width: 100%;
-  }
-  header img {
-    width: 80%;
-    object-fit: contain;
-  }
-  .hes-gallery {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+.single-awesome-project:hover .awesome-img>a::after {
+  opacity: 1;
 }
-
-@media (max-width: 500px) {
-  .hes-gallery {
-    grid-template-columns: 1fr 1fr;
-  }
+.single-awesome-project:hover .add-actions {
+  opacity: 1;
+  bottom: 0;
+}
+.awesome-img>a::after {
+  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  transition: 0.4s;
+}
+.add-actions {
+  background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+  bottom: 30px;
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding: 10px 15px;
+  position: absolute;
+  transition: all 0.4s ease 0s;
+  width: 100%;
+}
+.project-dec {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.project-dec a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.project-dec h4 {
+  margin-bottom: 5px;
+}
+.project-dec h4:hover {
+  color: #fff;
+}
+.project-dec h4 {
+  color: #ddd;
+  font-size: 20px;
+  margin-top: -45px;
+  padding-top: 50%;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.project-dec span {
+  color: #ddd;
+  font-size: 16px;
+}
+.project-action-btn {
+  display: block;
+  height: 100%;
+  text-align: center;
+  transition: all 1s ease 0s;
+  width: 100%;
+}
+.project-action-btn li {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.project-action-btn li a {
+  display: block;
+  height: 100%;
+  width: 100%;
 }

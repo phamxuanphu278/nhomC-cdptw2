@@ -1,8 +1,5 @@
-HesGallery.setOptions({
-    disableScrolling: false,
-    hostedStyles: false,
-    animations: true,
 
-    showImageCount: true,
-    wrapAround: true
+$(document).ready(function() {
+  var veno_box = $('.venobox');
+  veno_box.venobox();
 });
