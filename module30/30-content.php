@@ -87,9 +87,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
               </div>
             </div>
-            <div class="designer-footer">
-              <a href="#">DESIGN BY TEAMC</a>
-            </div>
+              <button class="btn-footer">MT-Store</button>
           </div>
           <div class="ft-footer">
              &copy; 2019 Created by <span class="team-footer"><a href="#">C-Team Studio</a></span>. Premium e-commerce solutions.
