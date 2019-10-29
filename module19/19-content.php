@@ -51,7 +51,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div id="tab1" class="tab active">
                         <article class="item-small-news" style="display: block;">
                             <div class="block-des"><i class="fa fa-pencil"></i>Description</div>
-                            <img src="images/team1.jpg" alt="team1" class="img-responsive img-team">
+                            <img src="images/team1.jpg" alt="team1" class="img-responsive img-team img-hide">
                             <h3 class="name-ourteam">Cleveland A. Whited</h3>
                             <h4 class="pos-ourteam">Manager</h4>
                             <div class="infor-ourteam">Infor</div>
@@ -72,7 +72,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div id="tab2" class="tab">
                         <article class="item-small-news" style="display: block;">
                             <div class="block-des"><i class="fa fa-pencil"></i>Description</div>
-                            <img src="images/team2.jpg" alt="team1" class="img-responsive img-team">
+                            <img src="images/team2.jpg" alt="team1" class="img-responsive img-team img-hide">
                             <h3 class="name-ourteam">Belex Adele</h3>
                             <h4 class="pos-ourteam">CEO</h4>
                             <div class="infor-ourteam">Infor</div>
@@ -93,7 +93,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div id="tab3" class="tab">
                          <article class="item-small-news" style="display: block;">
                             <div class="block-des"><i class="fa fa-pencil"></i>Description</div>
-                            <img src="images/team3.jpg" alt="team1" class="img-responsive img-team">
+                            <img src="images/team3.jpg" alt="team1" class="img-responsive img-team img-hide">
                             <h3 class="name-ourteam">Matthieu Gonzalez</h3>
                             <h4 class="pos-ourteam">Employee</h4>
                             <div class="infor-ourteam">Infor</div>
@@ -114,7 +114,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div id="tab4" class="tab">
                          <article class="item-small-news" style="display: block;">
                             <div class="block-des"><i class="fa fa-pencil"></i>Description</div>
-                            <img src="images/team4.jpg" alt="team1" class="img-responsive img-team">
+                            <img src="images/team4.jpg" alt="team1" class="img-responsive img-team img-hide">
                             <h3 class="name-ourteam">Hizo Akamara</h3>
                             <h4 class="pos-ourteam">Secretary</h4>
                             <div class="infor-ourteam">Infor</div>

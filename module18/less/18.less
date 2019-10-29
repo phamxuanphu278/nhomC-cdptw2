@@ -100,10 +100,15 @@
   }
   .share-jean {
     padding-top: @size-line;
+    .title-shared {
+      color: @bg-color; 
+      font-size: 25px;
+      font-weight: bold;
+    }
     ul {
       position: @pos-jean;
-      left: @wh-jean;
-      transform: translate(-50%, 50%);
+      left:50%;
+      transform: translate(-50%, -90%);
       margin: @value;
       padding: @value;
       display: flex;
@@ -188,28 +193,6 @@
     ul li:hover:nth-child(3) a:after{
       background: #e83322;
     }
-
-    ul li:hover:nth-child(4) a{
-      background: #0077B5;
-    }
-
-    ul li:hover:nth-child(4) a:before{
-      background: #036aa0;
-    }
-    ul li:hover:nth-child(4) a:after{
-      background: #0d82bf;
-    }
-
-    ul li:hover:nth-child(5) a{
-      background: #e4405f;
-    }
-
-    ul li:hover:nth-child(5) a:before{
-      background: #d02d4c;
-    }
-    ul li:hover:nth-child(5) a:after{
-      background: #f1395c;
-    }
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px)
@@ -220,14 +203,13 @@
   .btn-jean {
     padding-top: @size-line;
   }
+  .img-slider-jean {
+    margin: 0 auto;
+  }
 }
 @media screen and (max-width: 768px) {
   ul{
     position: @pos-jean;
-    left: 65%;
-    transform: translate(-50%, 50%);
-    margin: @value;
-    padding: @value;
-    display: flex;
+    transform: translate(-50%, 30%) !important;
   }
 }

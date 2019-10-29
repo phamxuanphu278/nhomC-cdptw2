@@ -165,7 +165,6 @@
     }
 }
 
-
 @media screen and (max-width: 992px)
 {
   .my-card
@@ -178,13 +177,25 @@
     .col-counter {
       padding-top: @size-ourteam + 10;
     }
+    .my-card
+    {
+        left: 45% !important;
+    }
 }
 @media screen and (max-width: 768px)
 {
     .block-des {
+        border-bottom: 1px solid #e7e7e7;
         font-size: @size-ourteam + 5;
         color: @bg-color;
         display: block !important;
         padding: @size-tabs @value;
+    }
+    .img-hide {
+        padding-top: 18px;
+    }
+    .my-card
+    {
+        left: 45% !important;
     }
 }

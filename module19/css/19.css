@@ -162,12 +162,22 @@
   .col-counter {
     padding-top: 30px;
   }
+  .my-card {
+    left: 45% !important;
+  }
 }
 @media screen and (max-width: 768px) {
   .block-des {
+    border-bottom: 1px solid #e7e7e7;
     font-size: 25px;
     color: #d45a5a;
     display: block !important;
     padding: 15px 0;
+  }
+  .img-hide {
+    padding-top: 18px;
+  }
+  .my-card {
+    left: 45% !important;
   }
 }

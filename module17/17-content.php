@@ -19,7 +19,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <span class="right-line"></span>
     </div>
     <div class="row line-range">
-        <div class="col-md-3 col-sm-6">
+        <div class="col-lg-3 col-md-4 col-sm-6 manex">
             <div class="product-sale">
                 <div class="product-image">
                     <a href="#">
@@ -60,7 +60,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <span>Thiết Kế Trẻ Trung, Luôn Cập Nhật Xu Hướng Thời Trang Mới Nhất, Bảo Hành Keo Vĩnh Viễn.</span><br><br>
                             <div class="quantity buttons_added">
                                 <input type="button" value="-" class="minus">
-                                <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
+                                <input type="number" step="1" min="1" max="" name="quantity" value="1" class="input-text qty" size="4">
                                 <input type="button" value="+" class="plus">
                             </div>
                             <div class="btn-giohang">
@@ -86,7 +86,7 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
         </div>
         </div>
-        <div class="col-md-3 col-sm-6">
+        <div class="col-lg-3 col-md-4 col-sm-6 manex">
             <div class="product-sale">
                 <div class="product-image">
                     <a href="#">
@@ -153,7 +153,7 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
         </div>
         </div>
-        <div class="col-md-3 col-sm-6">
+        <div class="col-lg-3 col-md-4 col-sm-6 manex">
             <div class="product-sale">
                 <div class="product-image">
                     <a href="#">
@@ -220,7 +220,7 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
         </div>
         </div>
-        <div class="col-md-3 col-sm-6">
+        <div class="col-lg-3 col-md-4 col-sm-6 manex">
             <div class="product-sale">
                 <div class="product-image">
                     <a href="#">

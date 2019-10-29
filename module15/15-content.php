@@ -12,6 +12,7 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <!-- Swiper -->
+<div id="preloader"></div>
   <div class="swiper-container">
     <div class="swiper-wrapper">
       <div class="swiper-slide">

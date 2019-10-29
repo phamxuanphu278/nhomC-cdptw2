@@ -48,9 +48,10 @@
       font-size: @range + 5;  
     }
   }
-
+  .manex {
+    padding-top: 20px;
+  }
   .line-range {
-    padding: @range 0;
     .product-sale {
       font-family: Raleway, sans-serif;
       text-align: @mid-text;
@@ -249,19 +250,22 @@
         height: @range3;
         padding: 0 @range/4;
         text-align: @mid-text;
+        border: 0;
         background-color: transparent;
       }
       .quantity.buttons_added .minus,
       .quantity.buttons_added .plus {
         padding: 7px @range/2;
         height: @range3;
-        background-color: #F4F4F4;
-        border: 1px solid #efefef;
+        background: #fff;
+        color: @bg-color;
+        border: 1px solid @bg-color;
         cursor: pointer;
       }
       .quantity.buttons_added .minus:hover,
       .quantity.buttons_added .plus:hover {
-        background: #eeeeee;
+        background: @bg-color;
+        color: #fff;
       }
       .quantity.buttons_added .minus:focus,
       .quantity.buttons_added .plus:focus {
@@ -273,6 +277,7 @@
       .btn-cart {
         background: @bg-color-fff;
         color: @bg-color;
+        padding: 5px;
         border: @border-product;
       }
       .btn-cart:hover {
@@ -284,7 +289,7 @@
         padding-bottom: @range - 5;
       }
       .share-product a {
-        margin: 0 @range/2;
+        margin: 0 5px;
         color: #b1abab;
       }
       .share-product a:hover {
@@ -295,8 +300,6 @@
       }
     }
   }
-
-
 @media screen and (max-width: 992px)
 {
   .range-row2 {
