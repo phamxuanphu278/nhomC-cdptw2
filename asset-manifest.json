@@ -1,31 +1,40 @@
 {
   "files": {
-    "main.css": "/nhomC-cdptw2/static/css/main.56a66b07.chunk.css",
-    "main.js": "/nhomC-cdptw2/static/js/main.03d685bd.chunk.js",
-    "main.js.map": "/nhomC-cdptw2/static/js/main.03d685bd.chunk.js.map",
+    "main.css": "/nhomC-cdptw2/static/css/main.8ecedbd3.chunk.css",
+    "main.js": "/nhomC-cdptw2/static/js/main.930cb203.chunk.js",
+    "main.js.map": "/nhomC-cdptw2/static/js/main.930cb203.chunk.js.map",
     "runtime-main.js": "/nhomC-cdptw2/static/js/runtime-main.d205d827.js",
     "runtime-main.js.map": "/nhomC-cdptw2/static/js/runtime-main.d205d827.js.map",
     "static/css/2.9dff373c.chunk.css": "/nhomC-cdptw2/static/css/2.9dff373c.chunk.css",
-    "static/js/2.4f84a01a.chunk.js": "/nhomC-cdptw2/static/js/2.4f84a01a.chunk.js",
-    "static/js/2.4f84a01a.chunk.js.map": "/nhomC-cdptw2/static/js/2.4f84a01a.chunk.js.map",
+    "static/js/2.5d60e55e.chunk.js": "/nhomC-cdptw2/static/js/2.5d60e55e.chunk.js",
+    "static/js/2.5d60e55e.chunk.js.map": "/nhomC-cdptw2/static/js/2.5d60e55e.chunk.js.map",
     "index.html": "/nhomC-cdptw2/index.html",
-    "precache-manifest.3e25ee4ae95ac6948256eed37ca3dec2.js": "/nhomC-cdptw2/precache-manifest.3e25ee4ae95ac6948256eed37ca3dec2.js",
+    "precache-manifest.79f212c06ad53b703e2858f3cb2a6a72.js": "/nhomC-cdptw2/precache-manifest.79f212c06ad53b703e2858f3cb2a6a72.js",
     "service-worker.js": "/nhomC-cdptw2/service-worker.js",
     "static/css/2.9dff373c.chunk.css.map": "/nhomC-cdptw2/static/css/2.9dff373c.chunk.css.map",
-    "static/css/main.56a66b07.chunk.css.map": "/nhomC-cdptw2/static/css/main.56a66b07.chunk.css.map",
+    "static/css/main.8ecedbd3.chunk.css.map": "/nhomC-cdptw2/static/css/main.8ecedbd3.chunk.css.map",
+    "static/media/adidas1.jpg": "/nhomC-cdptw2/static/media/adidas1.4ce728ee.jpg",
+    "static/media/adidas2.jpg": "/nhomC-cdptw2/static/media/adidas2.3f11c2ef.jpg",
+    "static/media/adidas3.jpg": "/nhomC-cdptw2/static/media/adidas3.feae4b0e.jpg",
+    "static/media/adidas4.png": "/nhomC-cdptw2/static/media/adidas4.b3d9e6fb.png",
     "static/media/font-awesome.min.css": "/nhomC-cdptw2/static/media/fontawesome-webfont.fee66e71.woff",
-    "static/media/giay1.jpg": "/nhomC-cdptw2/static/media/giay1.514e042d.jpg",
+    "static/media/giay1.jpg": "/nhomC-cdptw2/static/media/giay1.c9999bc5.jpg",
+    "static/media/giay1.png": "/nhomC-cdptw2/static/media/giay1.e6d7e6f1.png",
     "static/media/giay2.jpg": "/nhomC-cdptw2/static/media/giay2.b98711e3.jpg",
     "static/media/giay3.jpg": "/nhomC-cdptw2/static/media/giay3.7aa1f1a0.jpg",
+    "static/media/giay4.jpg": "/nhomC-cdptw2/static/media/giay4.6b01625d.jpg",
+    "static/media/giay5.jpg": "/nhomC-cdptw2/static/media/giay5.35b003f4.jpg",
     "static/media/logo.png": "/nhomC-cdptw2/static/media/logo.b66a694a.png",
     "static/media/logo1.png": "/nhomC-cdptw2/static/media/logo1.42c5afc2.png",
-    "static/media/master.png": "/nhomC-cdptw2/static/media/master.56b78e07.png"
+    "static/media/master.png": "/nhomC-cdptw2/static/media/master.56b78e07.png",
+    "static/media/puma1.jpg": "/nhomC-cdptw2/static/media/puma1.40ed1cd1.jpg",
+    "static/media/puma2.jpg": "/nhomC-cdptw2/static/media/puma2.fbd6ca8a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d205d827.js",
     "static/css/2.9dff373c.chunk.css",
-    "static/js/2.4f84a01a.chunk.js",
-    "static/css/main.56a66b07.chunk.css",
-    "static/js/main.03d685bd.chunk.js"
+    "static/js/2.5d60e55e.chunk.js",
+    "static/css/main.8ecedbd3.chunk.css",
+    "static/js/main.930cb203.chunk.js"
   ]
 }
