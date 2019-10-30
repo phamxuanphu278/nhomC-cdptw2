@@ -1,4 +1,13 @@
 $(document).ready(function() {
+  
+  $(window).on('load', function () {
+    if ($('#preloader').length) {
+      $('#preloader').delay(1000).fadeOut('slow', function () {
+        $(this).remove();
+      });
+    }
+  });
+
   var swiper = new Swiper('.slider-swip-1', {
       loop: true,
       autoplay: {
