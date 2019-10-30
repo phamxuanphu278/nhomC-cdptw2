@@ -1,0 +1,256 @@
+a,
+div,
+article,
+h3,
+header,
+span,
+ul,
+li,
+i,
+figure,
+image,
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title {
+  font-family: Karla, Arial, Helvetica, sans-serif;
+}
+.title,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Karla, Arial, Helvetica, sans-serif;
+  color: #1B1919;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+ol,
+ul {
+  list-style: none;
+}
+.vc_column-inner::after,
+.vc_column-inner::before {
+  content: " ";
+  display: table;
+}
+.type-5 {
+  overflow: hidden;
+  background-color: #fff;
+  position: relative;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.type-5 .main-page-wrapper {
+  padding-top: 40px;
+  margin-top: -40px;
+  background: #fff;
+}
+.type-5 .page-title-default {
+  background-color: #0a0a0a;
+  background-size: cover;
+}
+.type-5 .title-size-small {
+  padding: 15px 0;
+}
+.type-5 .title-size-small {
+  padding: 15px 0;
+}
+.type-5 .page-title {
+  width: 100%;
+  border-bottom: 1px solid rgba(168,168,168,0.15);
+  position: relative;
+  margin-bottom: 40px;
+}
+.type-5 #section_GT {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.type-5 .section {
+  padding: 30px 0;
+  position: relative;
+  min-height: auto;
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row;
+  flex-flow: row;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.type-5 .fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.type-5 .section-bg {
+  width: 100%;
+}
+.type-5 .relative {
+  position: relative !important;
+}
+.type-5 .section-content {
+  z-index: 1;
+}
+.type-5 .section-bg,
+.type-5 .section-content {
+  width: 100%;
+}
+.type-5 .row {
+  max-width: 1230px;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+.type-5 .col {
+  position: relative;
+  margin: 0;
+  padding: 0 15px 30px;
+  width: 100%;
+}
+.type-5 .col-inner {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+.type-5 .text-left {
+  text-align: left;
+}
+.type-5 .icon-box-left,
+.type-5 .icon-box-right {
+  -js-display: flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  width: 100%;
+}
+.type-5 .icon-box .icon-box-img {
+  margin-bottom: 1em;
+  max-width: 100%;
+  position: relative;
+}
+.type-5 .icon-box-left .icon-box-img+.icon-box-text {
+  padding-left: 1em;
+}
+.type-5 .icon-box-left .icon-box-text,
+.type-5 .icon-box-right .icon-box-text {
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0px;
+}
+.type-5 h3 {
+  font-size: 1.25em;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+.type-5 h1,
+.type-5 h2,
+.type-5 h3,
+.type-5 h4,
+.type-5 h5,
+.type-5 h6 {
+  color: #1c1c1c;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: .5em;
+  text-rendering: optimizeSpeed;
+}
+.type-5 p {
+  margin-top: 0;
+}
+.type-5 .icon-box-left .icon-box-img {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin-bottom: 0;
+  max-width: 200px;
+}
+.type-5 .icon-box .icon-box-img {
+  margin-bottom: 1em;
+  max-width: 100%;
+  position: relative;
+}
+i.fas,
+.fa:before {
+  font-family: FontAwesome;
+  font-size: 40px;
+}
+.container:after,
+.row:after,
+.clearfix:after,
+.clear:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.small-12 {
+  max-width: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+}
+@media screen and (min-width: 850px) {
+  .large-6 {
+    max-width: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+  }
+}
+@media screen and (min-width: 550px) {
+  .medium-6 {
+    max-width: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+  }
+}
+@media screen and (min-width: 850px) {
+  .col:first-child .col-inner {
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
