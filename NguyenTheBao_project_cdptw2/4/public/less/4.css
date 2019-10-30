@@ -32,6 +32,33 @@ section,
 summary {
   display: block;
 }
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title {
+  font-family: Karla, Arial, Helvetica, sans-serif;
+}
+.title,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Karla, Arial, Helvetica, sans-serif;
+  color: #1B1919;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
 ol,
 ul {
   list-style: none;
@@ -118,16 +145,6 @@ ul {
   padding-left: 0;
   padding-right: 0;
 }
-.website-wrapper .vc_col-md-6,
-.website-wrapper .vc_col-sm-12 {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
 .website-wrapper .vc_row.vc_row-flex>.vc_column_container>.vc_column-inner {
   z-index: unset !important;
 }
@@ -199,6 +216,137 @@ ul {
 }
 .website-wrapper .vc_custom_21 {
   margin-bottom: 30px !important;
+}
+.website-wrapper .vc_custom_22 {
+  padding-right: 30px !important;
+  padding-left: 30px !important;
+}
+.website-wrapper .wpb_content_element {
+  margin-bottom: 35px;
+}
+.website-wrapper .vc_custom_23 {
+  margin-bottom: 30px !important;
+}
+.website-wrapper .wpb_single_image .vc_figure {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  max-width: 100%;
+}
+.website-wrapper .wpb_single_image .vc_single_image-wrapper {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;
+}
+.website-wrapper .wpb_single_image img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
+}
+.website-wrapper .social-icons {
+  display: block;
+}
+.website-wrapper .text-center {
+  text-align: center;
+}
+.website-wrapper .social-icons.icons-design-circle li,
+.website-wrapper .social-icons.icons-design-colored li,
+.website-wrapper .social-icons.icons-design-colored-alt li {
+  width: 40px;
+  height: 40px;
+  background-color: #efefef;
+  border-radius: 50%;
+  text-align: center;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+.website-wrapper .social-icons.icons-design-circle li a,
+.website-wrapper .social-icons.icons-design-colored li a,
+.website-wrapper .social-icons.icons-design-colored-alt li a {
+  position: relative;
+  color: #8f8f8f;
+  width: 100%;
+  display: inline-block;
+}
+.website-wrapper .social-icons.icons-design-circle li i,
+.website-wrapper .social-icons.icons-design-colored li i,
+.website-wrapper .social-icons.icons-design-colored-alt li i {
+  line-height: 40px;
+}
+.website-wrapper .social-icons li:first-child {
+  margin-left: 0;
+  padding-left: 0;
+}
+.website-wrapper .social-icons li {
+  display: inline-block;
+  margin: 5px 5px 0 5px;
+  padding: 0;
+}
+.website-wrapper .social-icons li a {
+  font-size: 0;
+}
+.website-wrapper .social-icons li i {
+  font-size: 18px;
+}
+.website-wrapper .fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.website-wrapper .vc_row-full-width {
+  float: left;
+  width: 100%;
+}
+.vc_clearfix:after {
+  clear: both;
+}
+.vc_clearfix:after,
+.vc_clearfix:before {
+  content: " ";
+  display: table;
+}
+.vc_clearfix:after,
+.vc_clearfix:before {
+  content: " ";
+  display: table;
+}
+.social-icons.icons-design-circle li:hover,
+.social-icons.icons-design-colored li:hover,
+.social-icons.icons-design-colored-alt li:hover {
+  background-color: #000;
+}
+.social-icons.icons-design-circle li:hover a,
+.social-icons.icons-design-colored li:hover a,
+.social-icons.icons-design-colored-alt li:hover a {
+  color: #fff;
+}
+i.fa:before {
+  margin-left: 1px;
+  margin-right: 1px;
+}
+a {
+  color: #202020;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+.comment-content img,
+.entry-content img,
+.entry-summary img,
+.wp-caption {
+  max-width: 100%;
+}
+.vc_col-md-6,
+.vc_col-sm-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 #content .wpb_alert p:last-child,
 #content .wpb_text_column :last-child,

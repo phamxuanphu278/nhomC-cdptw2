@@ -52,11 +52,11 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 </figure>
                                             </div>
                                             <ul class="social-icons text-center icons-design-circle icons-size-default social-share ">
-                                                <li class="social-facebook"><a rel="nofollow" href="https://www.facebook.com/sharer/sharer.php?u=https://demo.xtemos.com/basel/about-me/" target="_blank" class=""><i class="fa fa-facebook"></i><span class="basel-social-icon-name">Facebook</span></a></li>
-                                                <li class="social-twitter"><a rel="nofollow" href="https://twitter.com/share?url=https://demo.xtemos.com/basel/about-me/" target="_blank" class=""><i class="fa fa-twitter"></i><span class="basel-social-icon-name">Twitter</span></a></li>
-                                                <li class="social-email"><a rel="nofollow" href="mailto:?subject=Check%20this%20https://demo.xtemos.com/basel/about-me/" target="_blank" class=""><i class="fa fa-envelope"></i><span class="basel-social-icon-name">Email</span></a></li>
-                                                <li class="social-pinterest"><a rel="nofollow" href="https://pinterest.com/pin/create/button/?url=https://demo.xtemos.com/basel/about-me/&amp;media=https://xtemos2.r.worldssl.net/basel/wp-includes/images/media/default.png" target="_blank" class=""><i class="fa fa-pinterest"></i><span class="basel-social-icon-name">Pinterest</span></a></li>
-                                                <li class="social-linkedin"><a rel="nofollow" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://demo.xtemos.com/basel/about-me/" target="_blank" class=""><i class="fa fa-linkedin"></i><span class="basel-social-icon-name">LinkedIn</span></a></li>
+                                                <li class="social-facebook"><a rel="nofollow" href="#" target="_blank" class=""><i class="fa fa-facebook"></i><span class="basel-social-icon-name">Facebook</span></a></li>
+                                                <li class="social-twitter"><a rel="nofollow" href="#" target="_blank" class=""><i class="fa fa-twitter"></i><span class="basel-social-icon-name">Twitter</span></a></li>
+                                                <li class="social-email"><a rel="nofollow" href="#" target="_blank" class=""><i class="fa fa-envelope"></i><span class="basel-social-icon-name">Email</span></a></li>
+                                                <li class="social-pinterest"><a rel="nofollow" href="#" target="_blank" class=""><i class="fa fa-pinterest"></i><span class="basel-social-icon-name">Pinterest</span></a></li>
+                                                <li class="social-linkedin"><a rel="nofollow" href="#" target="_blank" class=""><i class="fa fa-linkedin"></i><span class="basel-social-icon-name">LinkedIn</span></a></li>
                                             </ul>
                                         </div>
                                     </div>
