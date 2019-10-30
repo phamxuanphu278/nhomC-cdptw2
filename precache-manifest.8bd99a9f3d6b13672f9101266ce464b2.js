@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be88e4987ffd26e195ab191c588e702d",
+    "revision": "3b46e2a4e0e22b65ad5ba298d1073a03",
     "url": "/nhomC-cdptw2/index.html"
   },
   {
-    "revision": "6e4a6e3eefd577dae5cf",
+    "revision": "6a6dd4c980cff16c0a94",
     "url": "/nhomC-cdptw2/static/css/2.9dff373c.chunk.css"
   },
   {
-    "revision": "bf7bdd2a6c699643f3ec",
-    "url": "/nhomC-cdptw2/static/css/main.c9f7cfd7.chunk.css"
+    "revision": "61edf0d0236717b1d3a3",
+    "url": "/nhomC-cdptw2/static/css/main.fe48a3e0.chunk.css"
   },
   {
-    "revision": "6e4a6e3eefd577dae5cf",
-    "url": "/nhomC-cdptw2/static/js/2.5d60e55e.chunk.js"
+    "revision": "6a6dd4c980cff16c0a94",
+    "url": "/nhomC-cdptw2/static/js/2.a74582dc.chunk.js"
   },
   {
-    "revision": "bf7bdd2a6c699643f3ec",
-    "url": "/nhomC-cdptw2/static/js/main.dd86ca23.chunk.js"
+    "revision": "61edf0d0236717b1d3a3",
+    "url": "/nhomC-cdptw2/static/js/main.9a56578f.chunk.js"
   },
   {
     "revision": "00eb1be30a241d40f4a2",
@@ -100,6 +100,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nhomC-cdptw2/static/media/giay5.35b003f4.jpg"
   },
   {
+    "revision": "9f12de6ddf46d79a503186d74ac80e94",
+    "url": "/nhomC-cdptw2/static/media/icon1.9f12de6d.jpg"
+  },
+  {
+    "revision": "c7de68fdd4a26dd65d1ee219dd086479",
+    "url": "/nhomC-cdptw2/static/media/icon2.c7de68fd.png"
+  },
+  {
     "revision": "b66a694a9f79c9198cd435af102db5bc",
     "url": "/nhomC-cdptw2/static/media/logo.b66a694a.png"
   },
@@ -118,5 +126,17 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fbd6ca8a536296ac767a39f2e86c9a15",
     "url": "/nhomC-cdptw2/static/media/puma2.fbd6ca8a.jpg"
+  },
+  {
+    "revision": "5e8e0d4f1a002613aebce53587a08a34",
+    "url": "/nhomC-cdptw2/static/media/quan2.5e8e0d4f.jpg"
+  },
+  {
+    "revision": "9ccb3ce1effea10022923865d4108be0",
+    "url": "/nhomC-cdptw2/static/media/quan3.9ccb3ce1.jpg"
+  },
+  {
+    "revision": "e93778fa83eb8bcfbfa173ef0ac44cfd",
+    "url": "/nhomC-cdptw2/static/media/quan4.e93778fa.jpg"
   }
 ]);

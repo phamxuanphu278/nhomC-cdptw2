@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/nhomC-cdptw2/static/css/main.c9f7cfd7.chunk.css",
-    "main.js": "/nhomC-cdptw2/static/js/main.dd86ca23.chunk.js",
-    "main.js.map": "/nhomC-cdptw2/static/js/main.dd86ca23.chunk.js.map",
+    "main.css": "/nhomC-cdptw2/static/css/main.fe48a3e0.chunk.css",
+    "main.js": "/nhomC-cdptw2/static/js/main.9a56578f.chunk.js",
+    "main.js.map": "/nhomC-cdptw2/static/js/main.9a56578f.chunk.js.map",
     "runtime-main.js": "/nhomC-cdptw2/static/js/runtime-main.d205d827.js",
     "runtime-main.js.map": "/nhomC-cdptw2/static/js/runtime-main.d205d827.js.map",
     "static/css/2.9dff373c.chunk.css": "/nhomC-cdptw2/static/css/2.9dff373c.chunk.css",
-    "static/js/2.5d60e55e.chunk.js": "/nhomC-cdptw2/static/js/2.5d60e55e.chunk.js",
-    "static/js/2.5d60e55e.chunk.js.map": "/nhomC-cdptw2/static/js/2.5d60e55e.chunk.js.map",
+    "static/js/2.a74582dc.chunk.js": "/nhomC-cdptw2/static/js/2.a74582dc.chunk.js",
+    "static/js/2.a74582dc.chunk.js.map": "/nhomC-cdptw2/static/js/2.a74582dc.chunk.js.map",
     "index.html": "/nhomC-cdptw2/index.html",
-    "precache-manifest.3fe710cbcffc659dea87309a487890cb.js": "/nhomC-cdptw2/precache-manifest.3fe710cbcffc659dea87309a487890cb.js",
+    "precache-manifest.8bd99a9f3d6b13672f9101266ce464b2.js": "/nhomC-cdptw2/precache-manifest.8bd99a9f3d6b13672f9101266ce464b2.js",
     "service-worker.js": "/nhomC-cdptw2/service-worker.js",
     "static/css/2.9dff373c.chunk.css.map": "/nhomC-cdptw2/static/css/2.9dff373c.chunk.css.map",
-    "static/css/main.c9f7cfd7.chunk.css.map": "/nhomC-cdptw2/static/css/main.c9f7cfd7.chunk.css.map",
+    "static/css/main.fe48a3e0.chunk.css.map": "/nhomC-cdptw2/static/css/main.fe48a3e0.chunk.css.map",
     "static/media/adidas1.jpg": "/nhomC-cdptw2/static/media/adidas1.4ce728ee.jpg",
     "static/media/adidas2.jpg": "/nhomC-cdptw2/static/media/adidas2.3f11c2ef.jpg",
     "static/media/adidas3.jpg": "/nhomC-cdptw2/static/media/adidas3.feae4b0e.jpg",
@@ -24,17 +24,22 @@
     "static/media/giay3.jpg": "/nhomC-cdptw2/static/media/giay3.7aa1f1a0.jpg",
     "static/media/giay4.jpg": "/nhomC-cdptw2/static/media/giay4.6b01625d.jpg",
     "static/media/giay5.jpg": "/nhomC-cdptw2/static/media/giay5.35b003f4.jpg",
+    "static/media/icon1.jpg": "/nhomC-cdptw2/static/media/icon1.9f12de6d.jpg",
+    "static/media/icon2.png": "/nhomC-cdptw2/static/media/icon2.c7de68fd.png",
     "static/media/logo.png": "/nhomC-cdptw2/static/media/logo.b66a694a.png",
     "static/media/logo1.png": "/nhomC-cdptw2/static/media/logo1.42c5afc2.png",
     "static/media/master.png": "/nhomC-cdptw2/static/media/master.56b78e07.png",
     "static/media/puma1.jpg": "/nhomC-cdptw2/static/media/puma1.40ed1cd1.jpg",
-    "static/media/puma2.jpg": "/nhomC-cdptw2/static/media/puma2.fbd6ca8a.jpg"
+    "static/media/puma2.jpg": "/nhomC-cdptw2/static/media/puma2.fbd6ca8a.jpg",
+    "static/media/quan2.jpg": "/nhomC-cdptw2/static/media/quan2.5e8e0d4f.jpg",
+    "static/media/quan3.jpg": "/nhomC-cdptw2/static/media/quan3.9ccb3ce1.jpg",
+    "static/media/quan4.jpg": "/nhomC-cdptw2/static/media/quan4.e93778fa.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d205d827.js",
     "static/css/2.9dff373c.chunk.css",
-    "static/js/2.5d60e55e.chunk.js",
-    "static/css/main.c9f7cfd7.chunk.css",
-    "static/js/main.dd86ca23.chunk.js"
+    "static/js/2.a74582dc.chunk.js",
+    "static/css/main.fe48a3e0.chunk.css",
+    "static/js/main.9a56578f.chunk.js"
   ]
 }

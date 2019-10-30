@@ -1,13 +1,5 @@
 $(document).ready(function() {
   
-  $(window).on('load', function () {
-    if ($('#preloader').length) {
-      $('#preloader').delay(500).fadeOut('slow', function () {
-        $(this).remove();
-      });
-    }
-  });
-
   var swiper = new Swiper('.slider-swip-1', {
       loop: true,
       autoplay: {
@@ -45,5 +37,12 @@ $(document).ready(function() {
                 spaceBetween: 20,
             },
         }
+    });
+    var swiper = new Swiper('.slider-swip-3', {
+      loop: true,
+      navigation: {
+        nextEl: '.next3',
+        prevEl: '.prev3',
+      },
     });
 });
