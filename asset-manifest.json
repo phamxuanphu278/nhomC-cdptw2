@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/nhomC-cdptw2/static/css/main.1b471372.chunk.css",
+    "main.js": "/nhomC-cdptw2/static/js/main.b50d969a.chunk.js",
+    "main.js.map": "/nhomC-cdptw2/static/js/main.b50d969a.chunk.js.map",
+    "runtime-main.js": "/nhomC-cdptw2/static/js/runtime-main.d205d827.js",
+    "runtime-main.js.map": "/nhomC-cdptw2/static/js/runtime-main.d205d827.js.map",
+    "static/css/2.9dff373c.chunk.css": "/nhomC-cdptw2/static/css/2.9dff373c.chunk.css",
+    "static/js/2.674dc57a.chunk.js": "/nhomC-cdptw2/static/js/2.674dc57a.chunk.js",
+    "static/js/2.674dc57a.chunk.js.map": "/nhomC-cdptw2/static/js/2.674dc57a.chunk.js.map",
+    "index.html": "/nhomC-cdptw2/index.html",
+    "precache-manifest.ab492ebb9702ba02a3224f9f0acd82e4.js": "/nhomC-cdptw2/precache-manifest.ab492ebb9702ba02a3224f9f0acd82e4.js",
+    "service-worker.js": "/nhomC-cdptw2/service-worker.js",
+    "static/css/2.9dff373c.chunk.css.map": "/nhomC-cdptw2/static/css/2.9dff373c.chunk.css.map",
+    "static/css/main.1b471372.chunk.css.map": "/nhomC-cdptw2/static/css/main.1b471372.chunk.css.map",
+    "static/media/font-awesome.min.css": "/nhomC-cdptw2/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d205d827.js",
+    "static/css/2.9dff373c.chunk.css",
+    "static/js/2.674dc57a.chunk.js",
+    "static/css/main.1b471372.chunk.css",
+    "static/js/main.b50d969a.chunk.js"
+  ]
+}
