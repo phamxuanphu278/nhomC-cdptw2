@@ -14,28 +14,27 @@ if (!class_exists('lessc')) {
 }
 
 $less = new lessc;
-$less->compileFile('public/less/11.less', 'public/less/11.css');
+$less->compileFile('public/less/4.less', 'public/less/4.css');
 
 ?>
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="platform-Windows">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" type="text/css" href="<?php echo $url_path ?>/public/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="<?php echo $url_path ?>/public/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="<?php echo $url_path ?>/public/less/11.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo $url_path ?>/public/less/4.css">
         <script src="<?php echo $url_path ?>/public/js/jquery-3.1.1.min.js"></script>
         <script src="<?php echo $url_path ?>/public/js/bootstrap.min.js"></script>
-        <!-- <script src="<?php echo $url_path ?>/public/js/11.js"></script> -->
-        <title>Modul 11</title>
+        <title>Modul 4</title>
     </head>
 
-    <body class="offcanvas-sidebar-mobile">
-        <?php include $dir_block . './11-content.php'; ?>
+    <body class="wrapper-full-width">
+        <?php include $dir_block . './4-content.php'; ?>
     </body>
 
 </html>
