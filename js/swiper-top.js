@@ -45,4 +45,36 @@ $(document).ready(function() {
         prevEl: '.prev3',
       },
     });
+    var swiper = new Swiper('.slider-swip-4', {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      loop: true,
+      navigation: {
+        nextEl: '.next4',
+        prevEl: '.prev4',
+      },
+      breakpoints: {
+            480: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            575: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            768: {
+                slidesPerView: 1,
+                spaceBetween: 15,
+
+            },
+            992: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+            },
+            1200: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
+        }
+    });
 });

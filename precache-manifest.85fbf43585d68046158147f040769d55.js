@@ -1,31 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f09828cfb5a03bf71dccecc42bb2469f",
+    "revision": "f5627b9e69e26485e22037899ebfd8d1",
     "url": "/nhomC-cdptw2/index.html"
   },
   {
-    "revision": "e0b12d5ed743db5c50b1",
+    "revision": "dbcdca17658d933c310d",
     "url": "/nhomC-cdptw2/static/css/2.9dff373c.chunk.css"
   },
   {
-    "revision": "7f7a9d8d845af608b544",
-    "url": "/nhomC-cdptw2/static/css/main.164a8fb7.chunk.css"
+    "revision": "433655d6863820e75fb7",
+    "url": "/nhomC-cdptw2/static/css/main.cb38a74b.chunk.css"
   },
   {
-    "revision": "e0b12d5ed743db5c50b1",
-    "url": "/nhomC-cdptw2/static/js/2.9b0b2c59.chunk.js"
+    "revision": "dbcdca17658d933c310d",
+    "url": "/nhomC-cdptw2/static/js/2.4a24c445.chunk.js"
   },
   {
-    "revision": "7f7a9d8d845af608b544",
-    "url": "/nhomC-cdptw2/static/js/main.98627b07.chunk.js"
+    "revision": "433655d6863820e75fb7",
+    "url": "/nhomC-cdptw2/static/js/main.f4739e30.chunk.js"
   },
   {
     "revision": "00eb1be30a241d40f4a2",
     "url": "/nhomC-cdptw2/static/js/runtime-main.d205d827.js"
   },
   {
+    "revision": "74559e466ca2c895fd9e9e1132db6985",
+    "url": "/nhomC-cdptw2/static/media/1.74559e46.jpg"
+  },
+  {
     "revision": "a07644473cab9851db602fd24c0c747a",
     "url": "/nhomC-cdptw2/static/media/2.a0764447.jpg"
+  },
+  {
+    "revision": "de2f785590f9e76aa343ca86d4aa6a53",
+    "url": "/nhomC-cdptw2/static/media/3.de2f7855.png"
+  },
+  {
+    "revision": "f8543b06e05c7d6528ea31ace61dd22d",
+    "url": "/nhomC-cdptw2/static/media/4.f8543b06.jpg"
+  },
+  {
+    "revision": "2280d60f78c0a7f7bf927d4d9a930e95",
+    "url": "/nhomC-cdptw2/static/media/5.2280d60f.jpg"
   },
   {
     "revision": "a57c9f20160f5a3568d78a5538340b41",
@@ -154,5 +170,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e93778fa83eb8bcfbfa173ef0ac44cfd",
     "url": "/nhomC-cdptw2/static/media/quan4.e93778fa.jpg"
+  },
+  {
+    "revision": "3d764d90d9cc2abb40b946ccc25b3af4",
+    "url": "/nhomC-cdptw2/static/media/shopreview1.3d764d90.jpg"
   }
 ]);
