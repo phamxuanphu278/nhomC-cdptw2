@@ -8,7 +8,7 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 
-<div class="website-wrapper">
+<div class="type-10">
     <div class="main-page-wrapper">
         <div class="page-title page-title-default title-size-small title-design-centered color-scheme-light title-blog">
             <div class="container">
@@ -76,5 +76,31 @@ $url_path = str_replace('\\', '/', $url_path);
                 </aside>
             </div>
         </div>
+    </div>
+</div>
+
+<div class="basel-toolbar icons-design-line basel-toolbar-label-show">
+    <div class="basel-toolbar-shop basel-toolbar-item"> 
+        <a href="#"> 
+            <span class="basel-toolbar-label"> Shop </span> 
+        </a>
+    </div> 
+    <a href="#" class="basel-sticky-sidebar-opener sticky-toolbar"> 
+        <span class="basel-sidebar-opener-label basel-toolbar-label"> Sidebar </span> 
+    </a>
+    <div class="wishlist-info-widget" title="My wishlist"> 
+        <a href="#"> 
+            <span class="wishlist-count"> 0 </span> 
+            <span class="basel-toolbar-label"> Wishlist </span> 
+        </a>
+    </div>
+    <div class="shopping-cart basel-cart-design-3  cart-widget-opener" title="My cart"> 
+        <a href="#"> <span class="basel-cart-totals"> 
+            <span class="basel-cart-number">0</span>
+            </span> <span class="basel-toolbar-label"> Cart </span> 
+        </a>
+    </div>
+    <div class="basel-toolbar-account basel-toolbar-item login-side-opener"> 
+        <a href="#"> <span class="basel-toolbar-label"> My account </span> </a>
     </div>
 </div>
