@@ -1,27 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a453cb9ab5d043814648e799d66ebc6b",
+    "revision": "692aa440fc772b2ec354d7141803e0f9",
     "url": "/nhomC-cdptw2/index.html"
   },
   {
-    "revision": "5a79289aeed1ecb5e47b",
+    "revision": "e0b12d5ed743db5c50b1",
     "url": "/nhomC-cdptw2/static/css/2.9dff373c.chunk.css"
   },
   {
-    "revision": "0243fc98d517402d04ab",
-    "url": "/nhomC-cdptw2/static/css/main.73cd5ed5.chunk.css"
+    "revision": "cbd4c04ee18f92fd0c60",
+    "url": "/nhomC-cdptw2/static/css/main.164a8fb7.chunk.css"
   },
   {
-    "revision": "5a79289aeed1ecb5e47b",
-    "url": "/nhomC-cdptw2/static/js/2.928a890d.chunk.js"
+    "revision": "e0b12d5ed743db5c50b1",
+    "url": "/nhomC-cdptw2/static/js/2.9b0b2c59.chunk.js"
   },
   {
-    "revision": "0243fc98d517402d04ab",
-    "url": "/nhomC-cdptw2/static/js/main.bfc6c673.chunk.js"
+    "revision": "cbd4c04ee18f92fd0c60",
+    "url": "/nhomC-cdptw2/static/js/main.a746f999.chunk.js"
   },
   {
     "revision": "00eb1be30a241d40f4a2",
     "url": "/nhomC-cdptw2/static/js/runtime-main.d205d827.js"
+  },
+  {
+    "revision": "a07644473cab9851db602fd24c0c747a",
+    "url": "/nhomC-cdptw2/static/media/2.a0764447.jpg"
+  },
+  {
+    "revision": "a57c9f20160f5a3568d78a5538340b41",
+    "url": "/nhomC-cdptw2/static/media/about.a57c9f20.PNG"
   },
   {
     "revision": "4ce728ee1488e24eed5453c42ff9ec62",
@@ -38,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b3d9e6fb44d4b716f2c2a10b3f1c43df",
     "url": "/nhomC-cdptw2/static/media/adidas4.b3d9e6fb.png"
+  },
+  {
+    "revision": "94e0ac492442537facb29953decedc80",
+    "url": "/nhomC-cdptw2/static/media/chuki.94e0ac49.PNG"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -98,6 +110,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "35b003f4a2610f2ebf57338aa290ecbf",
     "url": "/nhomC-cdptw2/static/media/giay5.35b003f4.jpg"
+  },
+  {
+    "revision": "118049649c24cb934bb66a6169e330e2",
+    "url": "/nhomC-cdptw2/static/media/hoa.11804964.jpg"
   },
   {
     "revision": "9f12de6ddf46d79a503186d74ac80e94",
