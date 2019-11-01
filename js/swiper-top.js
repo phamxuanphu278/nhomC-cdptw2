@@ -11,7 +11,7 @@ $(document).ready(function() {
         prevEl: '.prev1',
       },
     });
-  var swiper = new Swiper('.slider-swip-2', {
+  var swiper2 = new Swiper('.slider-swip-2', {
       slidesPerView: 3,
       spaceBetween: 20,
       navigation: {
@@ -38,14 +38,14 @@ $(document).ready(function() {
             },
         }
     });
-    var swiper = new Swiper('.slider-swip-3', {
+    var swiper3 = new Swiper('.slider-swip-3', {
       loop: true,
       navigation: {
         nextEl: '.next3',
         prevEl: '.prev3',
       },
     });
-    var swiper = new Swiper('.slider-swip-4', {
+    var swiper4 = new Swiper('.slider-swip-4', {
       slidesPerView: 3,
       spaceBetween: 20,
       loop: true,
