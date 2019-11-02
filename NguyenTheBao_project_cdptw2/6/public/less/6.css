@@ -196,7 +196,6 @@ ul {
   letter-spacing: .5px;
 }
 .type-6 .item .post-img-wrapp {
-  background-color: #000;
   overflow: hidden;
   vertical-align: middle;
 }
@@ -289,4 +288,9 @@ ul {
 }
 .type-6 p {
   margin-bottom: 20px;
+}
+.type-6 .font-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #131313;
 }

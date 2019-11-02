@@ -37,8 +37,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         <div class="wpb_wrapper">
                                                             <div id="best-man" class="basel-images-gallery">
                                                                 <div class="gallery-images ">
-                                                                    <div class="basel-gallery-item"> <a href="https://xtemos1.r.worldssl.net/basel/wp-content/uploads/2015/08/blog-man-fashion1.jpg" data-index="1" data-width="600" data-height="800">
-                                                                            <img class="basel-gallery-image image-1 " src="https://xtemos1.r.worldssl.net/basel/wp-content/uploads/2015/08/blog-man-fashion1-600x670.jpg" width="600" height="670" alt="blog-man-fashion1" title="blog-man-fashion1"> </a>
+                                                                    <div class="basel-gallery-item">
+                                                                        <img class="basel-gallery-image image-1 " src="public/images/blog-man-fashion1.jpg" width="600" height="670" alt="blog-man-fashion1" title="blog-man-fashion1"> </a>
                                                                     </div>
                                                                 </div>
                                                             </div>

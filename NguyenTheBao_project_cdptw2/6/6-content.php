@@ -16,7 +16,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <h3 class="entry-title">
                         <span>Blog</span>
                     </h3>
-                    <div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#">
+                    <div class="breadcrumbs" >
                         <a href="#" rel="v:url" property="v:title">Home</a>
                         <span class="current">News</span></div>
                 </header>
@@ -47,7 +47,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div class="wpb_wrapper">
                                             <div class="wpb_text_column wpb_content_element">
                                                 <div class="wpb_wrapper">
-                                                    <p class="font-title" style="font-family: Arial,Helvetica,sans-serif; font-size: 18px; color: #131313;">
+                                                    <p class="font-title">
                                                         Chỉ sau một vài tuần từ khi công bố bộ sưu tập lấy cảm hứng
                                                         từ Harry Porter, tháng 5
                                                         – 2019 vừa qua, fans của Vans lại có dịp chào đón sản phẩm
@@ -59,7 +59,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         yêu thích hiện nay. Đây cũng là tiền đề cho sự hợp tác trực
                                                         tiếp tiếp theo của
                                                         Supreme và Sekintani La Norihiro cho bộ sưu tập trang phục
-                                                        SS19.</br>
+                                                        SS19.</br></br>
 
                                                         Cả 2 mẫu giày Vans thuộc Diamond Plate đều có thiết kế tấm
                                                         kim cương ở mặt trên. Họa
@@ -68,14 +68,14 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         sản phẩm nằm ở tấm da lộn và mũ vải tạo độ bền. Trong khi
                                                         đó, lớp lót bằng da sẽ
                                                         tăng thêm tính đẳng cấp của sản phẩm, xứng đáng với cái tên
-                                                        “Pro”.</br>
+                                                        “Pro”.</br></br>
 
                                                         Phiên bản Slip-On Pro của Diamond Plate được thiết kế phần
                                                         vải phía trên hoàn toàn.
                                                         Bên trong sản phảm có bọc da êm và toàn bộ sản phẩm được in
                                                         tấm kim cương. Phần đế
                                                         màu trắng phù hợp với các chi tiết như sọc Vans hay thẻ
-                                                        thương hiệu.</br>
+                                                        thương hiệu.</br></br>
 
                                                         Cách tư duy màu sắc trong các thiết kế của Diamond Plate vô
                                                         cùng thông minh. Mỗi đôi
@@ -86,7 +86,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         biển hoặc màu đen tương ứng. Như vậy, bạn có thể tìm được ở
                                                         mỗi phiên bản 3 màu sắc:
                                                         Sk8-Hi: bản navy – đỏ, bản xám – đen và bảng vàng –
-                                                        nâu.</br>
+                                                        nâu.</br></br>
                                                         Slip-On: bản vàng, đỏ và xám.
 
                                                         Tất cả chúng đều là những gam màu cá tính nhưng không quá
