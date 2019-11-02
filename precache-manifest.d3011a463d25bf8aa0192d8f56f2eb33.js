@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5bb69e8cae6fbd88306f9bff40ff74c4",
+    "revision": "359173817bb1ee19dd0cdca6d0b190d1",
     "url": "/nhomC-cdptw2/index.html"
   },
   {
-    "revision": "b6882a88361e0096fc01",
+    "revision": "6acc5840007885b491f1",
     "url": "/nhomC-cdptw2/static/css/2.9dff373c.chunk.css"
   },
   {
-    "revision": "f5612379245ac2bdab52",
-    "url": "/nhomC-cdptw2/static/css/main.d3470158.chunk.css"
+    "revision": "0d6f7f3d6f9c947bce00",
+    "url": "/nhomC-cdptw2/static/css/main.be7d5d60.chunk.css"
   },
   {
-    "revision": "b6882a88361e0096fc01",
-    "url": "/nhomC-cdptw2/static/js/2.f54adab4.chunk.js"
+    "revision": "6acc5840007885b491f1",
+    "url": "/nhomC-cdptw2/static/js/2.ed3923db.chunk.js"
   },
   {
-    "revision": "f5612379245ac2bdab52",
-    "url": "/nhomC-cdptw2/static/js/main.a785873a.chunk.js"
+    "revision": "0d6f7f3d6f9c947bce00",
+    "url": "/nhomC-cdptw2/static/js/main.7f7943ef.chunk.js"
   },
   {
     "revision": "00eb1be30a241d40f4a2",
     "url": "/nhomC-cdptw2/static/js/runtime-main.d205d827.js"
+  },
+  {
+    "revision": "277f80fbdccd51be4f5733c8aecc9add",
+    "url": "/nhomC-cdptw2/static/media/1.277f80fb.jpg"
   },
   {
     "revision": "74559e466ca2c895fd9e9e1132db6985",
@@ -144,6 +148,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nhomC-cdptw2/static/media/icon2.c7de68fd.png"
   },
   {
+    "revision": "36fcc0092af4b2c795558604e6289efb",
+    "url": "/nhomC-cdptw2/static/media/img3.36fcc009.jpg"
+  },
+  {
     "revision": "b66a694a9f79c9198cd435af102db5bc",
     "url": "/nhomC-cdptw2/static/media/logo.b66a694a.png"
   },
@@ -178,5 +186,17 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3d764d90d9cc2abb40b946ccc25b3af4",
     "url": "/nhomC-cdptw2/static/media/shopreview1.3d764d90.jpg"
+  },
+  {
+    "revision": "857dd35cfed94d0e451f60594f52d3fb",
+    "url": "/nhomC-cdptw2/static/media/team-2.857dd35c.jpg"
+  },
+  {
+    "revision": "748f233f93a3c06f35fb519c4c354cca",
+    "url": "/nhomC-cdptw2/static/media/team-4.748f233f.jpg"
+  },
+  {
+    "revision": "d598ab8c84efebc042da6796792b03d3",
+    "url": "/nhomC-cdptw2/static/media/work-1.d598ab8c.jpg"
   }
 ]);
