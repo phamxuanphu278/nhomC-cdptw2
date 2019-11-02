@@ -54,7 +54,7 @@ ul {
     display: block;
 }
 
-.website-wrapper {
+.type-10 {
     overflow: hidden;
     background-color: @cl-white;
     position: relative;
@@ -322,5 +322,253 @@ ul {
     .col-sm-3 {
         width: 25%;
         float: left;
+    }
+}
+
+.basel-toolbar {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 350;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    padding: 5px;
+    height: 55px;
+    background-color: #fff;
+    box-shadow: 0 0 9px rgba(0, 0, 0, .12);
+
+    div {
+        flex: 1 0 20%;
+    }
+
+
+    .basel-toolbar-item>a {
+        padding-right: 10px;
+        padding-left: 10px;
+        color: #4C4C4C;
+        line-height: 1;
+    }
+
+    .basel-toolbar-label {
+        position: absolute;
+        right: 10px;
+        bottom: 5px;
+        left: 10px;
+        display: none;
+        overflow: hidden;
+        text-align: center;
+        text-overflow: ellipsis;
+        font-weight: 600;
+        font-size: 11px !important;
+        line-height: 1 !important;
+        transition: all .25s ease;
+        white-space: nowrap;
+    }
+
+    .basel-sticky-sidebar-opener {
+        display: none;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .wishlist-info-widget {
+        position: relative;
+        text-align: center;
+    }
+
+    .wishlist-info-widget>a {
+        min-width: 30px;
+    }
+
+    .wishlist-info-widget .wishlist-count,.basel-cart-design-3>a .basel-cart-number {
+        padding: 0;
+        width: 15px;
+        height: 15px;
+        line-height: 15px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: #1aada3;
+        overflow: hidden;
+        position: absolute;
+        z-index: 1;
+        font-size: 10px;
+        color: #fff;
+        top: -2px;
+        left: calc(50% + 12px);
+        transform: translateX(-50%);
+    }
+
+    .shopping-cart>a>span {
+        display: inline-block;
+        font-size: 13px;
+        vertical-align: middle;
+        line-height: 30px;
+    }
+
+    .basel-cart-design-3>a {
+        position: relative;
+        text-align: center;
+    }
+
+}
+
+a {
+    color: #202020;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+a:hover {
+    color: #abafb3;
+    text-decoration: underline;
+}
+
+.basel-toolbar>div a {
+    transition: none;
+}
+
+.basel-toolbar .basel-burger-icon,
+.basel-toolbar>a,
+.basel-toolbar>div a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    text-decoration: none;
+}
+
+.basel-toolbar>a,
+.basel-toolbar>div {
+    flex: 1 0 20%;
+}
+
+
+
+.basel-toolbar.basel-toolbar-label-show .basel-toolbar-label {
+    display: block;
+}
+
+.basel-sticky-sidebar-opener:not(.shop-sidebar-opener):after {
+    content: "\f141";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 20px;
+    line-height: 48px;
+    margin-left: -4px;
+}
+
+.basel-toolbar .basel-sticky-sidebar-opener:after {
+    height: 20px;
+    font-size: 19px;
+    line-height: 1;
+    margin: 0;
+}
+
+.basel-toolbar-item>a:before {
+    display: inline-block;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+    font-family: FontAwesome;
+}
+
+.basel-toolbar-shop>a:before {
+    content: "\f290";
+}
+
+.basel-toolbar-account a:before {
+    content: "\f007";
+}
+
+.wishlist-info-widget>a:before {
+    content: "\f004";
+    font-family: FontAwesome;
+}
+
+.shopping-cart>a:before {
+    content: "\f07a";
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+    font-family: FontAwesome;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+.basel-toolbar.basel-toolbar-label-show .basel-burger-icon,
+.basel-toolbar.basel-toolbar-label-show>a,
+.basel-toolbar.basel-toolbar-label-show>div a {
+    padding-bottom: 15px;
+    height: 45px;
+}
+
+@media (max-width: 768px) {
+    .offcanvas-sidebar-mobile .sidebar-container .basel-sidebar-scroll {
+        position: absolute;
+        top: 67px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+    }
+
+    .offcanvas-sidebar-mobile .sidebar-container {
+        position: fixed;
+        width: 300px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        overflow: hidden;
+        background-color: #fff;
+        z-index: 500;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 0;
+        -webkit-transition: transform .25s ease;
+        transition: transform .25s ease;
+        transform: translate3d(-300px,0,0);
+        -webkit-transform: translate3d(-300px,0,0);
+    }
+
+    .offcanvas-sidebar-mobile .basel-sticky-sidebar-opener.sticky-toolbar {
+        display: flex;
+    }
+
+    .offcanvas-sidebar-mobile .basel-sticky-sidebar-opener {
+        display: block;
+    }
+
+    .basel-toolbar>a:hover .basel-toolbar-label{
+        color: rgba(76,76,76,.7);
+    }
+}
+
+@media (min-width: 768px) {
+    .col-sm-3 {
+        width: 25%;
+        float: left;
+    }
+
+    
+
+}
+
+@media (min-width: 1025px) {
+    .basel-toolbar {
+        display: none;
     }
 }
