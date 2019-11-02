@@ -13,9 +13,6 @@ $(document).ready(function() {
         $(this).addClass("active"); //  adding active class to clicked tab
 
     });
-    $('.counter').counterUp({
-        delay: 10,
-        time: 2500
-    });
+    
 });
    
