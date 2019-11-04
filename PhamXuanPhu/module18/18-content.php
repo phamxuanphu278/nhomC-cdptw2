@@ -66,16 +66,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
                               </div>
                         </div>
+                        <div class="btn-jean jean-hide"><button class="btn-goto"> Go to Shop</button></div>
                   </div>
             </div>
-          <div class="btn-jean"><button class="btn-goto"> Go to Shop</button></div>
-          <div class="share-jean">
-            <div><h4 class="title-shared"><i class="fa fa-share"></i>Share</h4>
-            </div>
-            <ul>
-              <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-            </ul>
-          </div>
+          <div class="btn-jean display-jean"><button class="btn-goto"> Go to Shop</button></div>
       </div>

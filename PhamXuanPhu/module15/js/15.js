@@ -2,7 +2,7 @@
 
   $(window).on('load', function () {
     if ($('#preloader').length) {
-      $('#preloader').delay(2000).fadeOut('slow', function () {
+      $('#preloader').delay(1000).fadeOut('slow', function () {
         $(this).remove();
       });
     }
@@ -19,4 +19,5 @@
         prevEl: '.swiper-button-prev',
       },
     });
+
  });
