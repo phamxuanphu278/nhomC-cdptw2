@@ -16,7 +16,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <h3 class="entry-title">
                         <span>Blog</span>
                     </h3>
-                    <div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#">
+                    <div class="breadcrumbs">
                         <a href="#" rel="v:url" property="v:title">Home</a>
                         <span class="current">News</span></div>
                 </header>
@@ -31,16 +31,16 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
                                     <div class="vc_column-inner">
                                         <div class="wpb_wrapper">
-                                            <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1484124985852">
+                                            <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_9">
                                                 <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-12 vc_col-xs-12">
                                                     <div class="vc_column-inner">
                                                         <div class="wpb_wrapper">
-                                                            <div class="wpb_text_column wpb_content_element vc_custom_1484138203937">
+                                                            <div class="wpb_text_column wpb_content_element vc_custom_9">
                                                                 <div class="wpb_wrapper">
                                                                     <h2><strong><span style="color: #1daaa3;">2.</span> Best women’s clothing</strong></h2>
                                                                 </div>
                                                             </div>
-                                                            <div class="wpb_text_column wpb_content_element vc_custom_1484129453229">
+                                                            <div class="wpb_text_column wpb_content_element vc_custom_9">
                                                                 <div class="wpb_wrapper">
                                                                     <ul>
                                                                         <li>Aliquam tincidunt mauris eu risus.</li>
@@ -57,11 +57,11 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     </div>
                                                 </div>
                                                 <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-12 vc_col-xs-12">
-                                                    <div class="vc_column-inner vc_custom_1484125033216">
+                                                    <div class="vc_column-inner vc_custom_9">
                                                         <div class="wpb_wrapper">
                                                             <div id="gallery_589" class="basel-images-gallery  spacing-30 columns-1 view-grid photoswipe-images">
                                                                 <div class="gallery-images ">
-                                                                    <div class="basel-gallery-item"> <a href="https://xtemos3.r.worldssl.net/basel/wp-content/uploads/2015/08/blog-woman-fashion1.jpg" data-index="1" data-width="600" data-height="800"> <img class="basel-gallery-image image-1 " src="https://xtemos3.r.worldssl.net/basel/wp-content/uploads/2015/08/blog-woman-fashion1-600x670.jpg" width="600" height="670" alt="blog-woman-fashion1" title="blog-woman-fashion1"> </a></div>
+                                                                    <div class="basel-gallery-item"> <a href="#" data-index="1" data-width="600" data-height="800"> <img class="basel-gallery-image image-1 " src="public/images/blog-woman-fashion.jpg" width="600" height="670" alt="blog-woman-fashion1" title="blog-woman-fashion1"> </a></div>
                                                                 </div>
                                                             </div>
                                                         </div>
