@@ -26,7 +26,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="row">
 
                 <div class="site-content col-sm-9"></div>
-                <aside class="sidebar-container col-sm-3 sidebar-right area-sidebar-1" role="complementary">
+                <aside class="sidebar-container col-sm-3 sidebar-right area-sidebar-1">
                     <div class="basel-close-sidebar-btn"><span>Close</span></div>
                     <div class="sidebar-inner basel-sidebar-scroll">
                         <div class="widget-area basel-sidebar-content">
@@ -35,47 +35,47 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div id="carousel-insta" class="instagram-widget data-source-scrape instagram-per-row-" data-atts="{&quot;title&quot;:&quot;&quot;,&quot;username&quot;:&quot;mikutas&quot;,&quot;number&quot;:&quot;9&quot;,&quot;size&quot;:&quot;thumbnail&quot;,&quot;target&quot;:&quot;_blank&quot;,&quot;link&quot;:&quot;View profile&quot;,&quot;design&quot;:&quot;&quot;,&quot;spacing&quot;:&quot;&quot;,&quot;rounded&quot;:&quot;&quot;,&quot;per_row&quot;:&quot;&quot;,&quot;content&quot;:&quot;&quot;,&quot;data_source&quot;:&quot;scrape&quot;}" data-username="mikutas">
                                     <ul class="instagram-pics ">
                                         <li style="background-image: url();"> <a href="#" target="_blank"></a>
-                                            <div class="wrapp-pics"> <img src="//instagram.fdnk1-1.fna.fbcdn.net/vp/03a9b6562d5b8ffea4ac5e0270c9e6c7/5E24FEB2/t51.2885-15/e35/c0.180.1440.1440a/s150x150/71102529_1402173669959257_7686222594640129030_n.jpg?_nc_ht=instagram.fdnk1-1.fna.fbcdn.net&amp;_nc_cat=1">
+                                            <div class="wrapp-pics"> <img src="public/images/inta.jpg">
                                                 <div class="hover-mask"></div>
                                             </div>
                                         </li>
                                         <li style="background-image: url();"> <a href="#" target="_blank"></a>
-                                            <div class="wrapp-pics"> <img src="//instagram.fdnk1-1.fna.fbcdn.net/vp/03a9b6562d5b8ffea4ac5e0270c9e6c7/5E24FEB2/t51.2885-15/e35/c0.180.1440.1440a/s150x150/71102529_1402173669959257_7686222594640129030_n.jpg?_nc_ht=instagram.fdnk1-1.fna.fbcdn.net&amp;_nc_cat=1">
+                                            <div class="wrapp-pics"> <img src="public/images/inta.jpg">
                                                 <div class="hover-mask"></div>
                                             </div>
                                         </li>
                                         <li style="background-image: url();"> <a href="#" target="_blank"></a>
-                                            <div class="wrapp-pics"> <img src="//instagram.fdnk1-1.fna.fbcdn.net/vp/03a9b6562d5b8ffea4ac5e0270c9e6c7/5E24FEB2/t51.2885-15/e35/c0.180.1440.1440a/s150x150/71102529_1402173669959257_7686222594640129030_n.jpg?_nc_ht=instagram.fdnk1-1.fna.fbcdn.net&amp;_nc_cat=1">
+                                            <div class="wrapp-pics"> <img src="public/images/inta.jpg">
                                                 <div class="hover-mask"></div>
                                             </div>
                                         </li>
                                         <li style="background-image: url();"> <a href="#" target="_blank"></a>
-                                            <div class="wrapp-pics"> <img src="//instagram.fdnk1-1.fna.fbcdn.net/vp/03a9b6562d5b8ffea4ac5e0270c9e6c7/5E24FEB2/t51.2885-15/e35/c0.180.1440.1440a/s150x150/71102529_1402173669959257_7686222594640129030_n.jpg?_nc_ht=instagram.fdnk1-1.fna.fbcdn.net&amp;_nc_cat=1">
+                                            <div class="wrapp-pics"> <img src="public/images/inta.jpg">
                                                 <div class="hover-mask"></div>
                                             </div>
                                         </li>
                                         <li style="background-image: url();"> <a href="#" target="_blank"></a>
-                                            <div class="wrapp-pics"> <img src="//instagram.fdnk1-1.fna.fbcdn.net/vp/03a9b6562d5b8ffea4ac5e0270c9e6c7/5E24FEB2/t51.2885-15/e35/c0.180.1440.1440a/s150x150/71102529_1402173669959257_7686222594640129030_n.jpg?_nc_ht=instagram.fdnk1-1.fna.fbcdn.net&amp;_nc_cat=1">
+                                            <div class="wrapp-pics"> <img src="public/images/inta.jpg">
                                                 <div class="hover-mask"></div>
                                             </div>
                                         </li>
                                         <li style="background-image: url();"> <a href="#" target="_blank"></a>
-                                            <div class="wrapp-pics"> <img src="//instagram.fdnk1-1.fna.fbcdn.net/vp/03a9b6562d5b8ffea4ac5e0270c9e6c7/5E24FEB2/t51.2885-15/e35/c0.180.1440.1440a/s150x150/71102529_1402173669959257_7686222594640129030_n.jpg?_nc_ht=instagram.fdnk1-1.fna.fbcdn.net&amp;_nc_cat=1">
+                                            <div class="wrapp-pics"> <img src="public/images/inta.jpg">
                                                 <div class="hover-mask"></div>
                                             </div>
                                         </li>
                                         <li style="background-image: url();"> <a href="#" target="_blank"></a>
-                                            <div class="wrapp-pics"> <img src="//instagram.fdnk1-1.fna.fbcdn.net/vp/03a9b6562d5b8ffea4ac5e0270c9e6c7/5E24FEB2/t51.2885-15/e35/c0.180.1440.1440a/s150x150/71102529_1402173669959257_7686222594640129030_n.jpg?_nc_ht=instagram.fdnk1-1.fna.fbcdn.net&amp;_nc_cat=1">
+                                            <div class="wrapp-pics"> <img src="public/images/inta.jpg">
                                                 <div class="hover-mask"></div>
                                             </div>
                                         </li>
                                         <li style="background-image: url();"> <a href="#" target="_blank"></a>
-                                            <div class="wrapp-pics"> <img src="//instagram.fdnk1-1.fna.fbcdn.net/vp/03a9b6562d5b8ffea4ac5e0270c9e6c7/5E24FEB2/t51.2885-15/e35/c0.180.1440.1440a/s150x150/71102529_1402173669959257_7686222594640129030_n.jpg?_nc_ht=instagram.fdnk1-1.fna.fbcdn.net&amp;_nc_cat=1">
+                                            <div class="wrapp-pics"> <img src="public/images/inta.jpg">
                                                 <div class="hover-mask"></div>
                                             </div>
                                         </li>
                                         <li style="background-image: url();"> <a href="#" target="_blank"></a>
-                                            <div class="wrapp-pics"> <img src="//instagram.fdnk1-1.fna.fbcdn.net/vp/03a9b6562d5b8ffea4ac5e0270c9e6c7/5E24FEB2/t51.2885-15/e35/c0.180.1440.1440a/s150x150/71102529_1402173669959257_7686222594640129030_n.jpg?_nc_ht=instagram.fdnk1-1.fna.fbcdn.net&amp;_nc_cat=1">
+                                            <div class="wrapp-pics"> <img src="public/images/inta.jpg">
                                                 <div class="hover-mask"></div>
                                             </div>
                                         </li>
@@ -106,7 +106,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <span class="basel-toolbar-label"> Shop </span> 
         </a>
     </div> 
-    <a href="#" class="basel-sticky-sidebar-opener sticky-toolbar"> 
+    <a href="#" class="basel-sticky-sidebar-opener sticky-toolbar" id="mySidebar"> 
         <span class="basel-sidebar-opener-label basel-toolbar-label"> Sidebar </span> 
     </a>
     <div class="wishlist-info-widget" title="My wishlist"> 
