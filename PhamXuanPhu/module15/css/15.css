@@ -96,6 +96,9 @@
   background: red;
   color: #fff;
 }
+.swiper-container .swiper-slide .headerh .bot-slide .txt-header {
+  padding-bottom: 20px;
+}
 @media screen and (min-width: 1200px) {
   .fonts1 {
     padding-top: 100px;

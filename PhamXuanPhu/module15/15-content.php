@@ -28,7 +28,7 @@ $url_path = str_replace('\\', '/', $url_path);
       					<span class="span-s2">MT-SHOP</span>
       				</h3>
       				<div class="bot-slide">
-      				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore accusamus rem consequatur dolorum deserunt hic.</p>
+      				<p class="txt-header">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore accusamus rem consequatur dolorum deserunt hic.</p>
       				<span>
       					<button type="button1" class="button-s">VIEW MORE</button>
       					<button type="button1" class="button-x">GO TO SHOP</button>
@@ -51,7 +51,7 @@ $url_path = str_replace('\\', '/', $url_path);
       					<span class="span-s2">MT-SHOP</span>
       				</h3>
       				<div class="bot-slide">
-      				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore accusamus rem consequatur dolorum deserunt hic.</p>
+      				<p class="txt-header">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore accusamus rem consequatur dolorum deserunt hic.</p>
       				<span>
       					<button type="button1" class="button-s">VIEW MORE</button>
       					<button type="button1" class="button-x">GO TO SHOP</button>
@@ -74,7 +74,7 @@ $url_path = str_replace('\\', '/', $url_path);
       					<span class="span-s2">MT-SHOP</span>
       				</h3>
       				<div class="bot-slide">
-      				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore accusamus rem consequatur dolorum deserunt hic.</p>
+      				<p class="txt-header">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore accusamus rem consequatur dolorum deserunt hic.</p>
       				<span>
       					<button type="button1" class="button-s">VIEW MORE</button>
       					<button type="button1" class="button-x">GO TO SHOP</button>

@@ -28,6 +28,7 @@ $less->compileFile('less/22.less', 'css/22.css');
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js" type="text/javascript"></script>
         <script src="<?php echo $url_path ?>/js/venobox.min.js" type="text/javascript"></script>
+        <script src="<?php echo $url_path ?>/js/isotope.pkgd.min.js" type="text/javascript"></script>
         <script src="<?php echo $url_path ?>/js/22.js" type="text/javascript"></script>
     </head>
     <body>

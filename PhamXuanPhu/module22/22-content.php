@@ -13,9 +13,11 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
  
     <div class="container">
-    <h1 class="hookah">HOOKAH</h1>
+      <div class="row">
+        <div class="col-md-6">
+                <h1 class="hookah">HOOKAH</h1>
     <h3 class="lounge"><i class="fa fa-star"></i>Lounge<i class="fa fa-star"></i></h3>
-    <p class="txt-hookah"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam harum minima quo assumenda tempora hic quod expedita libero, beatae voluptatum, aperiam totam vitae sint fugiat, quibusdam. Amet, nam, rem! Impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam harum minima quo assumenda tempora</p>
+    <p class="txt-hookah"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam harum minima quo assumenda tempora hic quod expedita libero, beatae voluptatum, aperiam totam vitae sint fugiat, quibusdam. Amet, nam, rem! Impedit.</p>
       <div class="row">
         <div class="awesome-project-content">
           <div class="col-md-4 col-sm-6 col-xs-12 design development">
@@ -25,8 +27,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="add-actions text-center">
                   <div class="project-dec">
                     <a class="venobox" data-gall="myGallery" href="images/1.jpg">
-                      <h4>Aididas White Veno</h4>
-                      <span>MT-Store</span>
+                      <span><i class="fa fa-check-circle"></i></span>
                     </a>
                   </div>
                 </div>
@@ -40,8 +41,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="add-actions text-center">
                   <div class="project-dec">
                     <a class="venobox" data-gall="myGallery" href="images/2.jpg">
-                      <h4>Adidas White Sea</h4>
-                      <span>MT-Store</span>
+                      <span><i class="fa fa-check-circle"></i></span>
                     </a>
                   </div>
                 </div>
@@ -55,8 +55,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="add-actions text-center">
                   <div class="project-dec">
                     <a class="venobox" data-gall="myGallery" href="images/3.jpg">
-                      <h4>Shoe Beautiful Girl</h4>
-                      <span>MT-Store</span>
+                     <span><i class="fa fa-check-circle"></i></span>
                     </a>
                   </div>
                 </div>
@@ -70,8 +69,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="add-actions text-center">
                   <div class="project-dec">
                     <a class="venobox" data-gall="myGallery" href="images/4.jpg">
-                      <h4>Nike White Turtl</h4>
-                      <span>MT-Store</span>
+                     <span><i class="fa fa-check-circle"></i></span>
                     </a>
                   </div>
                 </div>
@@ -85,8 +83,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="add-actions text-center text-center">
                   <div class="project-dec">
                     <a class="venobox" data-gall="myGallery" href="images/5.jpg">
-                      <h4>Puma Clevetu</h4>
-                      <span>MT-Store</span>
+                     <span><i class="fa fa-check-circle"></i></span>
                     </a>
                   </div>
                 </div>
@@ -100,8 +97,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="add-actions text-center">
                   <div class="project-dec">
                     <a class="venobox" data-gall="myGallery" href="images/6.jpg">
-                      <h4>Puma Night Hit</h4>
-                      <span>MT-Store</span>
+                      <span><i class="fa fa-check-circle"></i></span>
                     </a>
                   </div>
                 </div>
@@ -111,4 +107,126 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
       </div>
     <div class="btn-button"><a href="#"><button class="button-shop">Shop Now</button></a></div>
+        </div>
+        <div class="col-md-6">
+            <div class="title-pro">
+        <h2>OUR WORKS</h2>
+        <div class="line-product"> 
+        <span class="left-line"></span>
+        <h4 class="title">X<span class="title-separator"><span></span></span></h4> 
+        <span class="right-line"></span>
+    </div>
+      </div>
+      <div class="row">
+        <!-- Start Portfolio -page -->
+        <div class="tab-portfolio fix">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="awesome-menu">
+              <ul class="project-menu">
+                <li>
+                  <a href="#" class="active" data-filter="*">All</a>
+                </li>
+                <li>
+                  <a href="#" data-filter=".shoe">Shoe</a>
+                </li>
+                <li>
+                  <a href="#" data-filter=".jean">New Jean</a>
+                </li>
+                <li>
+                  <a href="#" data-filter=".short">New Short</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 shoe">
+            <div class="protile">
+              <div class="protile-img">
+                <a href="#"><img src="images/1.jpg" alt="" class="img-responsive img-light"/></a>
+                <div class="add-actions">
+                  <div class="project-protile">
+                    <a class="venobox" data-gall="myGallery" href="images/1.jpg">
+                      <span>The most beautiful shoes</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12 jean">
+            <div class="protile">
+              <div class="protile-img">
+                <a href="#"><img src="images/quan2.jpg" alt="" class="img-responsive img-light"/></a>
+                <div class="add-actions">
+                  <div class="project-protile">
+                    <a class="venobox" data-gall="myGallery" href="images/quan2.jpg">
+                      <span>The most beautiful jeans</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12 shoe">
+            <div class="protile">
+              <div class="protile-img">
+                <a href="#"><img src="images/3.jpg" alt="" class="img-responsive img-light"/></a>
+                <div class="add-actions">
+                  <div class="project-protile">
+                    <a class="venobox" data-gall="myGallery" href="images/3.jpg">
+                      <span>The most beautiful shoes</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12 short">
+            <div class="protile">
+              <div class="protile-img">
+                <a href="#"><img src="images/ao1.jpg" alt="" class="img-responsive img-light"/></a>
+                <div class="add-actions">
+                  <div class="project-protile">
+                    <a class="venobox" data-gall="myGallery" href="images/ao1.jpg">
+                      <span>Cheap shirt</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12 jean">
+            <div class="protile">
+              <div class="protile-img">
+                <a href="#"><img src="images/quan3.jpg" alt="" class="img-responsive img-light" /></a>
+                <div class="add-actions">
+                  <div class="project-protile">
+                    <a class="venobox" data-gall="myGallery" href="images/quan3.jpg">
+                      <span>The most beautiful jeans</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12 short">
+            <div class="protile">
+              <div class="protile-img">
+                <a href="#"><img src="images/ao3.jpg" alt="" class="img-responsive img-light" /></a>
+                <div class="add-actions">
+                  <div class="project-protile">
+                    <a class="venobox" data-gall="myGallery" href="images/ao3.jpg">
+                      <span>Cheap shirt</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
     </div>
