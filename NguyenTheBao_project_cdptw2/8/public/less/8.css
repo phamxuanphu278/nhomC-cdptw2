@@ -406,6 +406,122 @@ ul {
 .type-8 a:hover {
   outline: 0;
 }
+.type-8 .buttons {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.type-8 .buttons .wishlist-btn,
+.type-8 .buttons .compare-btn,
+.type-8 .buttons .quick-view {
+  margin-bottom: 0;
+}
+.type-8 .buttons .wishlist-btn>a,
+.type-8 .buttons .compare-btn>a,
+.type-8 .buttons .quick-view>a {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  text-transform: none;
+  display: block;
+  font-size: 0;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  letter-spacing: 0;
+  color: rgba(0,0,0,0.9);
+  text-decoration: none;
+}
+.type-8 .buttons .wishlist-btn>a::before,
+.type-8 .buttons .compare-btn>a::before,
+.type-8 .buttons .quick-view>a::before {
+  display: inline-block;
+  font-size: 18px;
+  font-family: FontAwesome;
+}
+.type-8 .buttons .wishlist-btn>a::before {
+  content: '\f08a';
+}
+.type-8 .buttons .compare-btn>a::before {
+  content: '\f021';
+}
+.type-8 .buttons .quick-view>a::before {
+  content: '\f00e';
+}
+.type-8 .buttons .wishlist-btn>a:hover .basel-tooltip-label,
+.type-8 .buttons .compare-btn>a:hover .basel-tooltip-label,
+.type-8 .buttons .quick-view>a:hover .basel-tooltip-label {
+  background-color: #000;
+  color: #fff;
+  visibility: visible;
+  top: 50%;
+  bottom: auto;
+  left: auto;
+  right: 115%;
+}
+.type-8 .buttons .wishlist-btn>a .basel-tooltip-label,
+.type-8 .buttons .compare-btn>a .basel-tooltip-label,
+.type-8 .buttons .quick-view>a .basel-tooltip-label {
+  -webkit-transform: translateX(0) translateY(-50%);
+  -ms-transform: translateX(0) translateY(-50%);
+  transform: translateX(0) translateY(-50%);
+}
+.type-8 .buttons .wishlist-btn>a .basel-tooltip-label::before,
+.type-8 .buttons .compare-btn>a .basel-tooltip-label::before,
+.type-8 .buttons .quick-view>a .basel-tooltip-label::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  bottom: auto;
+  left: 50%;
+  right: auto;
+  color: transparent;
+  font-size: 16px;
+  font-family: FontAwesome;
+  line-height: 5px;
+  -webkit-transform: translateX(-50%) translateY(0);
+  -ms-transform: translateX(-50%) translateY(0);
+  transform: translateX(-50%) translateY(0);
+  -webkit-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+.type-8 .wishlist-btn,
+.type-8 .compare-btn,
+.type-8 .quick-view {
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}
+.type-8 .product-element-top:hover .wishlist-btn,
+.type-8 .product-element-top:hover .compare-btn,
+.type-8 .product-element-top:hover .quick-view {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+}
+.type-8 .basel-tooltip-label {
+  position: absolute;
+  padding: 0 10px;
+  line-height: 28px;
+  font-size: 12px;
+  letter-spacing: .3px;
+  visibility: hidden;
+  white-space: nowrap;
+  color: transparent;
+  background-color: transparent;
+  -webkit-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
 .type-8 .basel-hover-alt .product-title {
   margin-bottom: 8px;
   text-align: left;
@@ -603,12 +719,10 @@ ul {
   width: 15px;
   height: 15px;
   background-size: cover;
+  cursor: pointer;
 }
 .type-8 .basel-hover-alt .swatches-on-grid .swatch-on-grid .basel-tooltip-label {
   margin-bottom: 2px;
-}
-.type-8 .swatches-on-grid .swatch-on-grid.swatch-has-image {
-  cursor: pointer;
 }
 .type-8 .basel-tooltip {
   text-align: center;
@@ -639,4 +753,40 @@ ul {
 }
 .type-8 .swatches-on-grid .swatch-on-grid.current-swatch {
   position: relative;
+}
+.type-8 .swatch-on-grid>span:hover .basel-tooltip-label {
+  background-color: #000;
+  color: #fff;
+  visibility: visible;
+  top: auto;
+  bottom: 115%;
+  left: 50%;
+  right: auto;
+}
+.type-8 .basel-tooltip-label:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  bottom: auto;
+  left: 50%;
+  right: auto;
+  color: transparent;
+  font-size: 16px;
+  font-family: FontAwesome;
+  line-height: 5px;
+  -webkit-transform: translateX(-50%) translateY(0);
+  -ms-transform: translateX(-50%) translateY(0);
+  transform: translateX(-50%) translateY(0);
+  -webkit-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+.type-8 .swatch-on-grid .basel-tooltip-label {
+  bottom: 130%;
+  left: 50%;
+  right: auto;
+  top: auto;
+  -webkit-transform: translateX(-50%) translateY(0);
+  -ms-transform: translateX(-50%) translateY(0);
+  transform: translateX(-50%) translateY(0);
 }

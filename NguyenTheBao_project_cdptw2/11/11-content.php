@@ -26,7 +26,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="row">
 
                 <div class="site-content col-sm-9"></div>
-                <aside class="sidebar-container col-sm-3 sidebar-right area-sidebar-1" role="complementary">
+                <aside class="sidebar-container col-sm-3 sidebar-right area-sidebar-1">
                     <div class="basel-close-sidebar-btn"><span>Close</span></div>
                     <div class="sidebar-inner basel-sidebar-scroll">
                         <div class="widget-area basel-sidebar-content">
@@ -106,7 +106,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <span class="basel-toolbar-label"> Shop </span> 
         </a>
     </div> 
-    <a href="#" class="basel-sticky-sidebar-opener sticky-toolbar"> 
+    <a href="#" class="basel-sticky-sidebar-opener sticky-toolbar" id="mySidebar"> 
         <span class="basel-sidebar-opener-label basel-toolbar-label"> Sidebar </span> 
     </a>
     <div class="wishlist-info-widget" title="My wishlist"> 

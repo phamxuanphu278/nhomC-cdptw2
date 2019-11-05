@@ -30,7 +30,7 @@ $less->compileFile('public/less/8.less', 'public/less/8.css');
             <script src="<?php echo $url_path ?>/public/js/jquery-3.1.1.min.js"></script>
             <script src="<?php echo $url_path ?>/public/js/bootstrap.min.js"></script>
             <script src="<?php echo $url_path ?>/public/js/swiper.min.js"></script>
-            <script src="<?php echo $url_path ?>/public/js/8.1.js" type="text/javascript"></script>
+            <script src="<?php echo $url_path ?>/public/js/8.js" type="text/javascript"></script>
             <title>Modul 8</title>
     </head>
 
