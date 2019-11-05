@@ -45,6 +45,12 @@
   font-size: 18px;
   color: #d45a5a;
 }
+.type18 .jean-hide {
+  text-align: center;
+}
+.type18 .display-jean {
+  display: none !important;
+}
 .type18 .btn-goto {
   margin: 20px 0;
   background: #d45a5a;
@@ -84,100 +90,6 @@
   width: 100%;
   transition: 800ms ease all;
 }
-.type18 .share-jean {
-  padding-top: 20px;
-}
-.type18 .share-jean .title-shared {
-  color: #d45a5a;
-  font-size: 25px;
-  font-weight: bold;
-}
-.type18 .share-jean ul {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%,-90%);
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-.type18 .share-jean ul li {
-  list-style: none;
-  margin: 0 40px;
-}
-.type18 .share-jean ul li .fa {
-  font-size: 40px;
-  color: #262626;
-  line-height: 80px;
-  transition: .5s;
-  vertical-align: middle;
-}
-.type18 .share-jean ul li a {
-  position: relative;
-  display: block;
-  width: 80px;
-  height: 80px;
-  background-color: #fff;
-  text-align: center !important;
-  transform: perspective(100px) rotate(-30deg) skew(25deg) translate(0,0);
-  transition: .5s;
-  box-shadow: -20px 20px 10px rgba(0,0,0,0.5);
-}
-.type18 .share-jean ul li a::before {
-  content: "";
-  position: absolute;
-  top: 10px;
-  left: -20px;
-  height: 100%;
-  width: 20px;
-  background: #b1b1b1;
-  transition: .5s;
-  transform: rotate(0deg) skewY(-45deg);
-}
-.type18 .share-jean ul li a::after {
-  content: "";
-  position: absolute;
-  top: 80px;
-  left: -11px;
-  height: 20px;
-  width: 100%;
-  background: #b1b1b1;
-  transition: .5s;
-  transform: rotate(0deg) skewX(-45deg);
-}
-.type18 .share-jean ul li a:hover {
-  transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px,-20px);
-  box-shadow: -50px 50px 50px rgba(0,0,0,0.5);
-}
-.type18 .share-jean ul li:hover .fa {
-  color: #fff;
-}
-.type18 .share-jean ul li:hover:nth-child(1) a {
-  background: #3b5999;
-}
-.type18 .share-jean ul li:hover:nth-child(1) a:before {
-  background: #2e4a86;
-}
-.type18 .share-jean ul li:hover:nth-child(1) a:after {
-  background: #4a69ad;
-}
-.type18 .share-jean ul li:hover:nth-child(2) a {
-  background: #55acee;
-}
-.type18 .share-jean ul li:hover:nth-child(2) a:before {
-  background: #4184b7;
-}
-.type18 .share-jean ul li:hover:nth-child(2) a:after {
-  background: #4d9fde;
-}
-.type18 .share-jean ul li:hover:nth-child(3) a {
-  background: #dd4b39;
-}
-.type18 .share-jean ul li:hover:nth-child(3) a:before {
-  background: #c13929;
-}
-.type18 .share-jean ul li:hover:nth-child(3) a:after {
-  background: #e83322;
-}
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .charac-jean {
     padding-top: 20px;
@@ -190,8 +102,7 @@
   }
 }
 @media screen and (max-width: 768px) {
-  ul {
-    position: absolute;
-    transform: translate(-50%,30%) !important;
+  .charac-jean {
+    padding-top: 20px;
   }
 }

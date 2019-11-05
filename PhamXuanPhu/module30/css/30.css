@@ -68,6 +68,9 @@
   color: red;
   text-decoration: none;
 }
+.end-footer .footer-border {
+  border-bottom: 3px solid #000;
+}
 @media screen and (max-width: 991px) {
   .kc-footer {
     padding-bottom: 0;

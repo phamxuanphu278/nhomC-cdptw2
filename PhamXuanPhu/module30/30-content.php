@@ -11,6 +11,30 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
+<div>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima in, veniam voluptates voluptate ratione eum laboriosam dolores, soluta minus consequuntur quae, aliquid sequi blanditiis. Neque quis eius accusamus magnam in.
+</div>
+<div>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima in, veniam voluptates voluptate ratione eum laboriosam dolores, soluta minus consequuntur quae, aliquid sequi blanditiis. Neque quis eius accusamus magnam in.
+</div>
+<div>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima in, veniam voluptates voluptate ratione eum laboriosam dolores, soluta minus consequuntur quae, aliquid sequi blanditiis. Neque quis eius accusamus magnam in.
+</div>
+<div>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima in, veniam voluptates voluptate ratione eum laboriosam dolores, soluta minus consequuntur quae, aliquid sequi blanditiis. Neque quis eius accusamus magnam in.
+</div>
+<div>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima in, veniam voluptates voluptate ratione eum laboriosam dolores, soluta minus consequuntur quae, aliquid sequi blanditiis. Neque quis eius accusamus magnam in.
+</div>
+<div>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima in, veniam voluptates voluptate ratione eum laboriosam dolores, soluta minus consequuntur quae, aliquid sequi blanditiis. Neque quis eius accusamus magnam in.
+</div>
+<div>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima in, veniam voluptates voluptate ratione eum laboriosam dolores, soluta minus consequuntur quae, aliquid sequi blanditiis. Neque quis eius accusamus magnam in.
+</div>
+<div>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima in, veniam voluptates voluptate ratione eum laboriosam dolores, soluta minus consequuntur quae, aliquid sequi blanditiis. Neque quis eius accusamus magnam in.
+</div>
 <footer class="end-footer">
         <div>
           <a href="#"><img src="images/logo.png" alt="" class="img-responsive img-footerwid"></a>
@@ -25,7 +49,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="container">
           <div class="row tag-container-tx">
             <div class="col-md-2 col-sm-6 col-xs-6">
-              <h4 class="footer-start">OUR STORES</h4>
+              <h4 class="footer-start"><span class="footer-border">OUR</span> STORES</h4>
               <p class="footer-fora"><a href="#">New York</a></p>
               <p class="footer-fora"><a href="#">Paris</a></p>
               <p class="footer-fora"><a href="#">LonDon</a></p>
@@ -34,7 +58,7 @@ $url_path = str_replace('\\', '/', $url_path);
               <p class="footer-fora"><a href="#">Tp. Hồ Chí Minh</a></p>
             </div>
             <div class="col-md-2 col-sm-6 col-xs-6">
-              <h4 class="footer-start">INFORMATION</h4>
+              <h4 class="footer-start"><span class="footer-border">INF</span>ORMATION</h4>
               <p class="footer-fora"><a href="#">About Store</a></p>
               <p class="footer-fora"><a href="#">New Collection</a></p>
               <p class="footer-fora"><a href="#">Woman Dress</a></p>
@@ -43,7 +67,7 @@ $url_path = str_replace('\\', '/', $url_path);
               <p class="footer-fora"><a href="#">Tp. Hồ Chí Minh</a></p>
             </div>
             <div class="col-md-2 col-sm-6 col-xs-6">
-              <h4 class="footer-start">USEFUL LINKS</h4>
+              <h4 class="footer-start"><span class="footer-border">USE</span>FUL LINKS</h4>
               <p class="footer-fora"><a href="#">New York</a></p>
               <p class="footer-fora"><a href="#">Paris</a></p>
               <p class="footer-fora"><a href="#">LonDon</a></p>
@@ -52,7 +76,7 @@ $url_path = str_replace('\\', '/', $url_path);
               <p class="footer-fora"><a href="#">Tp. Hồ Chí Minh</a></p>
             </div>
             <div class="col-md-2 col-sm-6 col-xs-6">
-              <h4 class="footer-start">FOOTER MENU</h4>
+              <h4 class="footer-start"><span class="footer-border">FOO</span>TER MENU</h4>
               <p class="footer-fora"><a href="#">About Store</a></p>
               <p class="footer-fora"><a href="#">New Collection</a></p>
               <p class="footer-fora"><a href="#">Woman Dress</a></p>
@@ -61,7 +85,7 @@ $url_path = str_replace('\\', '/', $url_path);
               <p class="footer-fora"><a href="#">Tp. Hồ Chí Minh</a></p>
             </div>
             <div class="col-md-4 col-sm-12 col-xs-12">
-              <h4 class="footer-start">ABOUT THE STORE</h4>
+              <h4 class="footer-start"><span class="footer-border">ABOUT</span> THE STORE</h4>
               <p class="kc-footer">STORE - worldwide fashion store since 1978. We sell over 1000+ 
               branded products on our web-site.</p>
               <p><i class="fas fa-location-arrow"></i>53 Vo Van Ngan Street, Thu Duc, Ho Chi Minh</p>

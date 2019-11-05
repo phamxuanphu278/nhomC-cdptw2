@@ -83,14 +83,14 @@
       padding: @font-headerh * 3 @font-headerh * 2;
       background: @background;
       .fonts1 {
-        font-size: @font-headerh * 5;
+        font-size: @font-headerh * 4;
       }
       .span-s2 {
-        font-size: @font-headerh * 4;
+        font-size: @font-headerh * 3;
       }
       .span-s1 {
         color: @bgred;
-        @extend .span-s2;
+        .span-s2;
       }
       .bot-slide {
         .button-s {
@@ -113,6 +113,9 @@
         .button-x:hover {
           background: @bgred;
           color: @bgwhite;
+        }
+        .txt-header {
+          padding-bottom: 20px;
         }
       }
     }

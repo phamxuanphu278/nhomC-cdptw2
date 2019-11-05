@@ -66,13 +66,14 @@
   background: #f2f2f2;
 }
 .swiper-container .swiper-slide .headerh .fonts1 {
-  font-size: 50px;
+  font-size: 40px;
 }
 .swiper-container .swiper-slide .headerh .span-s2 {
-  font-size: 40px;
+  font-size: 30px;
 }
 .swiper-container .swiper-slide .headerh .span-s1 {
   color: red;
+  font-size: 30px;
 }
 .swiper-container .swiper-slide .headerh .bot-slide .button-s {
   background: #000;
@@ -94,6 +95,9 @@
 .swiper-container .swiper-slide .headerh .bot-slide .button-x:hover {
   background: red;
   color: #fff;
+}
+.swiper-container .swiper-slide .headerh .bot-slide .txt-header {
+  padding-bottom: 20px;
 }
 @media screen and (min-width: 1200px) {
   .fonts1 {
