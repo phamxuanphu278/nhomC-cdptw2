@@ -149,17 +149,41 @@ a:active, a:hover {
 
 .project-protile a {
   display: block;
+  text-decoration: none;
   height: 100%;
   width: 100%;
 }
-
-.project-protile span {
-  color: #ddd;
-  font-size: 13px;
+.project-protile p {
+  color: #1daaa3;
+  font-size: 20px;
 }
-@media screen and (min-width: 488px) and (max-width: 768px)
+.project-protile .project-txt {
+  padding-top: 80px;
+}
+@media screen and (min-width: 992px) and (max-width: 1199px)
+{
+  .project-protile .project-txt {
+    padding-top: 50px !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 991px)
+{
+    .project-protile .project-txt {
+      padding-top: 50px !important;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px)
 {
   .img-light {
     margin:0 auto !important;
+  }
+  .project-protile .project-txt {
+      padding-top: 50px !important;
+  }
+}
+@media screen and (max-width: 480px) 
+{
+  .project-protile .project-txt {
+      padding-top: 0px !important;
   }
 }
