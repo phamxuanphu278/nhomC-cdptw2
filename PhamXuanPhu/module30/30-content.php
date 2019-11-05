@@ -11,30 +11,6 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima in, veniam voluptates voluptate ratione eum laboriosam dolores, soluta minus consequuntur quae, aliquid sequi blanditiis. Neque quis eius accusamus magnam in.
-</div>
-<div>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima in, veniam voluptates voluptate ratione eum laboriosam dolores, soluta minus consequuntur quae, aliquid sequi blanditiis. Neque quis eius accusamus magnam in.
-</div>
-<div>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima in, veniam voluptates voluptate ratione eum laboriosam dolores, soluta minus consequuntur quae, aliquid sequi blanditiis. Neque quis eius accusamus magnam in.
-</div>
-<div>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima in, veniam voluptates voluptate ratione eum laboriosam dolores, soluta minus consequuntur quae, aliquid sequi blanditiis. Neque quis eius accusamus magnam in.
-</div>
-<div>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima in, veniam voluptates voluptate ratione eum laboriosam dolores, soluta minus consequuntur quae, aliquid sequi blanditiis. Neque quis eius accusamus magnam in.
-</div>
-<div>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima in, veniam voluptates voluptate ratione eum laboriosam dolores, soluta minus consequuntur quae, aliquid sequi blanditiis. Neque quis eius accusamus magnam in.
-</div>
-<div>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima in, veniam voluptates voluptate ratione eum laboriosam dolores, soluta minus consequuntur quae, aliquid sequi blanditiis. Neque quis eius accusamus magnam in.
-</div>
-<div>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima in, veniam voluptates voluptate ratione eum laboriosam dolores, soluta minus consequuntur quae, aliquid sequi blanditiis. Neque quis eius accusamus magnam in.
-</div>
 <footer class="end-footer">
         <div>
           <a href="#"><img src="images/logo.png" alt="" class="img-responsive img-footerwid"></a>
