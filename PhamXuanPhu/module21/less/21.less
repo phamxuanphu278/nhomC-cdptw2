@@ -85,7 +85,25 @@
           }
       }
       .thumbnail{ 
-        border: @none-blog; 
+        border: @none-blog;
+        display: block;
+        line-height: 1.42857143;
+        background-color: #fff;
+        border-radius: 4px;
+        padding: 4px;
+        transition: border .2s ease-in-out;
+        overflow: hidden; 
+      }
+      .thumbnail img {
+        transition-duration: 0.5s;
+      }
+      .thumbnail img:hover {
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        cursor: pointer;
       }
       .blog-new-label {
         margin-top: @wrap-size;

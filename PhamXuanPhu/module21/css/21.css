@@ -68,6 +68,24 @@
 }
 .type21 .ourblog .thumbnail {
   border: none;
+  display: block;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 4px;
+  transition: border .2s ease-in-out;
+  overflow: hidden;
+}
+.type21 .ourblog .thumbnail img {
+  transition-duration: 0.5s;
+}
+.type21 .ourblog .thumbnail img:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  cursor: pointer;
 }
 .type21 .ourblog .blog-new-label {
   margin-top: 15px;
