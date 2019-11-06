@@ -20,7 +20,7 @@ $less->compileFile('public/less/27.less', 'public/less/27.css');
 
 
 <!DOCTYPE html>
-<html lang="en" class="platform-Windows">
+<html lang="en">
     <head >
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,7 +33,7 @@ $less->compileFile('public/less/27.less', 'public/less/27.css');
         <title>Modul 27</title>
     </head>
 
-    <body class="wrapper-full-width">
+    <body>
         <?php include $dir_block . './27-content.php'; ?>
     </body>
 
