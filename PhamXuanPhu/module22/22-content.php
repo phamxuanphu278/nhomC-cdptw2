@@ -136,10 +136,10 @@ $url_path = str_replace('\\', '/', $url_path);
           <div class="col-md-3 col-sm-4 col-xs-6 short">
             <div class="protile">
               <div class="protile-img">
-                <a href="#"><img src="images/ao5.png" alt="" class="img-responsive img-light" /></a>
+                <a href="#"><img src="images/ao6.png" alt="" class="img-responsive img-light" /></a>
                 <div class="add-actions">
                   <div class="project-protile">
-                    <a class="venobox" data-gall="myGallery" href="images/ao5.png">
+                    <a class="venobox" data-gall="myGallery" href="images/ao6.png">
                       <p class="project-txt">Cheap shirt</p>
                       <p><i class="fa fa-check-circle"></i></p>
                     </a>
@@ -151,10 +151,10 @@ $url_path = str_replace('\\', '/', $url_path);
           <div class="col-md-3 col-sm-4 col-xs-6 shoe">
             <div class="protile">
               <div class="protile-img">
-                <a href="#"><img src="images/7.jpg" alt="" class="img-responsive img-light" /></a>
+                <a href="#"><img src="images/10.jpg" alt="" class="img-responsive img-light" /></a>
                 <div class="add-actions">
                   <div class="project-protile">
-                    <a class="venobox" data-gall="myGallery" href="images/7.jpg">
+                    <a class="venobox" data-gall="myGallery" href="images/10.jpg">
                       <p class="project-txt">The most beautiful shoes</p>
                       <p><i class="fa fa-check-circle"></i></p>
                     </a>
