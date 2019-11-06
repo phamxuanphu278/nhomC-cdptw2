@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0f9cd1f74a304058c49b6f96fff95215",
+    "revision": "d9b1133124781ebf3f96250bea51a77f",
     "url": "/nhomC-cdptw2/index.html"
   },
   {
-    "revision": "34da53d3edabfea10a7b",
+    "revision": "6aa43c0a76cd5f894ede",
     "url": "/nhomC-cdptw2/static/css/2.9dff373c.chunk.css"
   },
   {
-    "revision": "54097152dbfc8068eabe",
-    "url": "/nhomC-cdptw2/static/css/main.47fc9282.chunk.css"
+    "revision": "569bffd1df8c28daa59c",
+    "url": "/nhomC-cdptw2/static/css/main.148c75ee.chunk.css"
   },
   {
-    "revision": "34da53d3edabfea10a7b",
-    "url": "/nhomC-cdptw2/static/js/2.631fe163.chunk.js"
+    "revision": "6aa43c0a76cd5f894ede",
+    "url": "/nhomC-cdptw2/static/js/2.93c110f5.chunk.js"
   },
   {
-    "revision": "54097152dbfc8068eabe",
-    "url": "/nhomC-cdptw2/static/js/main.e13b8159.chunk.js"
+    "revision": "569bffd1df8c28daa59c",
+    "url": "/nhomC-cdptw2/static/js/main.366d967d.chunk.js"
   },
   {
     "revision": "00eb1be30a241d40f4a2",
@@ -32,16 +32,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nhomC-cdptw2/static/media/1.33c0d08b.jpg"
   },
   {
+    "revision": "4ce728ee1488e24eed5453c42ff9ec62",
+    "url": "/nhomC-cdptw2/static/media/1.4ce728ee.jpg"
+  },
+  {
     "revision": "74559e466ca2c895fd9e9e1132db6985",
     "url": "/nhomC-cdptw2/static/media/1.74559e46.jpg"
+  },
+  {
+    "revision": "7797f6bea86edb1b84b94e635e303ce6",
+    "url": "/nhomC-cdptw2/static/media/10.7797f6be.jpg"
   },
   {
     "revision": "a07644473cab9851db602fd24c0c747a",
     "url": "/nhomC-cdptw2/static/media/2.a0764447.jpg"
   },
   {
+    "revision": "a227d5e2fd6fb26042bbc83f947330b6",
+    "url": "/nhomC-cdptw2/static/media/2.a227d5e2.jpg"
+  },
+  {
+    "revision": "64a6cce46683679e5e5a8a23bef214fe",
+    "url": "/nhomC-cdptw2/static/media/3.64a6cce4.jpg"
+  },
+  {
     "revision": "de2f785590f9e76aa343ca86d4aa6a53",
     "url": "/nhomC-cdptw2/static/media/3.de2f7855.png"
+  },
+  {
+    "revision": "01ebe1bae3e2e1df4352802921e5985f",
+    "url": "/nhomC-cdptw2/static/media/4.01ebe1ba.jpg"
   },
   {
     "revision": "215e74db7b6459e8d45a22f1cdf9ad13",
@@ -54,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2280d60f78c0a7f7bf927d4d9a930e95",
     "url": "/nhomC-cdptw2/static/media/5.2280d60f.jpg"
+  },
+  {
+    "revision": "0e9511a24873a79607cf5de10859bee1",
+    "url": "/nhomC-cdptw2/static/media/6.0e9511a2.jpg"
   },
   {
     "revision": "a57c9f20160f5a3568d78a5538340b41",
@@ -74,6 +98,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b3d9e6fb44d4b716f2c2a10b3f1c43df",
     "url": "/nhomC-cdptw2/static/media/adidas4.b3d9e6fb.png"
+  },
+  {
+    "revision": "d26a309ba0e754cabe4dfa1081ae5b3f",
+    "url": "/nhomC-cdptw2/static/media/ao1.d26a309b.jpg"
+  },
+  {
+    "revision": "98f6b4b49b407fd9cb23aa3e252df8a9",
+    "url": "/nhomC-cdptw2/static/media/ao3.98f6b4b4.jpg"
+  },
+  {
+    "revision": "6d3142507e2ce7ff15f6fcc174afc510",
+    "url": "/nhomC-cdptw2/static/media/ao6.6d314250.png"
+  },
+  {
+    "revision": "d75abeae258a89b9b11b0a3e0d67bd05",
+    "url": "/nhomC-cdptw2/static/media/background.d75abeae.jpg"
   },
   {
     "revision": "94e0ac492442537facb29953decedc80",
@@ -166,6 +206,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "56b78e073b9971a8580b80bbee2761fc",
     "url": "/nhomC-cdptw2/static/media/master.56b78e07.png"
+  },
+  {
+    "revision": "558960704dfc1ef040eedc0e1ad1bbca",
+    "url": "/nhomC-cdptw2/static/media/our-servise-back-c.55896070.jpg"
   },
   {
     "revision": "40ed1cd177b39bb07b0aff817a5ac81f",
