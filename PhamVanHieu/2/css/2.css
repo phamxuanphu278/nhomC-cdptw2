@@ -1,0 +1,47 @@
+.content {
+  padding-top: 15px;
+}
+.border {
+  border-bottom: 1px solid #adb5bd;
+  width: 110px;
+}
+.text {
+  font-size: 1.2em;
+  text-decoration: none;
+}
+.price {
+  color: #adb5bd;
+  font-size: 1.2em;
+}
+.card {
+  text-align: center;
+  border: 1px solid #adb5bd;
+  padding: 8px 8px;
+  font-size: 1.2em;
+}
+.card:hover {
+  border: 1px solid #FF0066;
+  background: #FF0066;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  list-style: none;
+}
+.boder {
+  overflow: hidden;
+}
+.boder img {
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
+}
+.boder img:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  cursor: pointer;
+}
