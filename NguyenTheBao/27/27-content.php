@@ -15,7 +15,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="site-content col-sm-12" role="main">
                     <article id="post-27" class="post-27 page type-page status-publish hentry">
                         <div class="entry-content">
-                            <div data-vc-full-width="true" data-vc-full-width-init="true" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_27 vc_row-has-fill vc_row-no-padding vc_row-o-full-height vc_row-o-columns-middle vc_row-o-content-middle vc_row-flex" style="position: relative; left: -89.5px; box-sizing: border-box; width: 1349px; min-height: 87.6471vh;">
+                            <div class="vc_row wpb_row vc_row-fluid vc_custom_27 vc_row-has-fill vc_row-no-padding vc_row-o-full-height vc_row-o-columns-middle vc_row-o-content-middle vc_row-flex" >
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
                                     <div class="vc_column-inner">
                                         <div class="wpb_wrapper">
