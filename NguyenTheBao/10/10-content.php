@@ -44,27 +44,27 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div id="basel-recent-posts-2" class="sidebar-widget basel-recent-posts">
                                 <h5 class="widget-title">Recent Posts</h5>
                                 <ul class="basel-recent-posts-list">
-                                    <li> <a class="recent-posts-thumbnail" href="../6/6.php" rel="bookmark"> <img class="attachment-large wp-post-image " src="./public/images/vans_supreme_small.jpg" width="70" height="70" alt="blog-new-1" title="blog-new-17"> </a>
+                                    <li> <a class="recent-posts-thumbnail" href="../6/6.php" rel="bookmark"> <img class="wp-post-image" src="./public/images/vans_supreme_small.jpg" width="70" height="70" alt="blog-new-1" title="blog-new-17"> </a>
                                         <div class="recent-posts-info">
                                             <h5 class="entry-title"><a href="../6/6.php" title="Vans and Supreme" rel="bookmark">Vans and supreme</a></h5><time class="recent-posts-time" datetime="2015-08-08T11:55:46+00:00">August 8, 2015</time>
                                         </div>
                                     </li>
-                                    <li> <a class="recent-posts-thumbnail" href="#" rel="bookmark"> <img class="attachment-large wp-post-image " src="https://xtemos2.r.worldssl.net/basel/wp-content/uploads/2015/08/blog-new-1-70x70.jpg" width="70" height="70" alt="blog-new-1" title="blog-new-1"> </a>
+                                    <li> <a class="recent-posts-thumbnail" href="#" rel="bookmark"> <img class="wp-post-image " src="./public/images/blog-new-1.jpg" width="70" height="70" alt="blog-new-1" title="blog-new-1"> </a>
                                         <div class="recent-posts-info">
                                             <h5 class="entry-title"><a href="#" title="Permalink to Hac fames tempor" rel="bookmark">Hac fames tempor</a></h5><time class="recent-posts-time" datetime="2015-08-08T11:49:17+00:00">August 8, 2015</time>
                                         </div>
                                     </li>
-                                    <li> <a class="recent-posts-thumbnail" href="#" rel="bookmark"> <img class="attachment-large wp-post-image " src="https://xtemos3.r.worldssl.net/basel/wp-content/uploads/2015/08/blog-new-photo-1-70x70.jpg" width="70" height="70" alt="blog-new-photo-1" title="blog-new-photo-1"> </a>
+                                    <li> <a class="recent-posts-thumbnail" href="#" rel="bookmark"> <img class="wp-post-image " src="./public/images/blog-new-2.jpg" width="70" height="70" alt="blog-new-photo-1" title="blog-new-photo-1"> </a>
                                         <div class="recent-posts-info">
                                             <h5 class="entry-title"><a href="#" title="Permalink to Urna ligula inceptos" rel="bookmark">Urna ligula inceptos</a></h5><time class="recent-posts-time" datetime="2015-08-08T11:46:28+00:00">August 8, 2015</time>
                                         </div>
                                     </li>
-                                    <li> <a class="recent-posts-thumbnail" href="#" rel="bookmark"> <img class="attachment-large wp-post-image " src="https://xtemos3.r.worldssl.net/basel/wp-content/uploads/2015/08/blog12-1-70x70.jpg" width="70" height="70" alt="blog12-1" title="blog12-1"> </a>
+                                    <li> <a class="recent-posts-thumbnail" href="#" rel="bookmark"> <img class="wp-post-image " src="./public/images/blog-new-3.jpg" width="70" height="70" alt="blog12-1" title="blog12-1"> </a>
                                         <div class="recent-posts-info">
                                             <h5 class="entry-title"><a href="#" title="Permalink to Dapibus a at gravida" rel="bookmark">Dapibus a at gravida</a></h5><time class="recent-posts-time" datetime="2015-08-08T11:35:37+00:00">August 8, 2015</time>
                                         </div>
                                     </li>
-                                    <li> <a class="recent-posts-thumbnail" href="#" rel="bookmark"> <img class="attachment-large wp-post-image " src="https://xtemos3.r.worldssl.net/basel/wp-content/uploads/2015/08/blog-new-11-70x70.jpg" width="70" height="70" alt="blog-new-11" title="blog-new-11"> </a>
+                                    <li> <a class="recent-posts-thumbnail" href="#" rel="bookmark"> <img class="wp-post-image " src="./public/images/blog-new-4.jpg" width="70" height="70" alt="blog-new-11" title="blog-new-11"> </a>
                                         <div class="recent-posts-info">
                                             <h5 class="entry-title"><a href="#" title="Permalink to Condintum intelger ridis" rel="bookmark">Condintum intelger ridis</a></h5><time class="recent-posts-time" datetime="2015-08-04T13:52:13+00:00">August 4, 2015</time>
                                         </div>
