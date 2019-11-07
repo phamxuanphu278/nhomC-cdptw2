@@ -204,6 +204,15 @@ ul {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
+  transition-duration: 0.5s;
+}
+.type-6 .item .post-img-wrapp img:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  cursor: pointer;
 }
 .type-6 .item a {
   color: #4e4e4e;

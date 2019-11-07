@@ -22,8 +22,20 @@ p {
     vertical-align: baseline;
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h1, h2, h3, h4, h5, h6, .title {
-    font-family: Karla,Arial,Helvetica,sans-serif;
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title {
+    font-family: Karla, Arial, Helvetica, sans-serif;
 }
 
 ol,
@@ -247,27 +259,38 @@ ul {
             margin-bottom: 25px;
             padding: 0;
 
-            h2{
+            h2 {
                 margin-top: 20px;
                 letter-spacing: .5px;
             }
 
-            ul{
+            ul {
                 text-align: left;
                 padding-left: 40px;
                 margin-bottom: 20px;
             }
 
-            li{
+            li {
                 line-height: 1.8;
             }
         }
+
         .entry-content>p:last-child {
             margin-bottom: 0;
         }
 
-        img{
+        img {
             max-width: 100%;
+            transition-duration: 0.5s;
+        }
+
+        img:hover {
+            transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            cursor: pointer;
         }
     }
 
@@ -368,22 +391,21 @@ ul {
     }
 
     .basel-images-gallery .gallery-images {
-        display: flex;
-        display: -webkit-flex;
-        display: -ms-flex;
-        flex-direction: row;
-        -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-        -webkit-align-items: stretch;
-        -ms-flex-align: stretch;
-        align-items: stretch;
-        -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        -webkit-justify-content: flex-start;
-        -ms-justify-content: flex-start;
-        justify-content: flex-start;
+
+        position: relative;
+        display: block;
+        text-align: center;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
     }
+
+    .basel-gallery-item{
+        overflow: hidden;
+        vertical-align: middle;
+    }
+
+
+
 
     .basel-images-gallery.basel-gallery-item {
         -webkit-flex-basis: 100%;
@@ -410,23 +432,29 @@ ul {
         clear: both;
     }
 
-    .wpb_content_element{
+    .wpb_content_element {
         margin-bottom: 35px;
     }
 
-    .wpb_text_column :last-child{
+    .wpb_text_column :last-child {
         margin-bottom: 0;
     }
 
 
-    .title, h1, h2, h3, h4, h5, h6 {
-        font-family: Karla,Arial,Helvetica,sans-serif;
+    .title,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: Karla, Arial, Helvetica, sans-serif;
         color: #1B1919;
         margin-bottom: 20px;
         line-height: 1.4;
     }
 
-    h2{
+    h2 {
         font-size: 24px;
     }
 
@@ -458,7 +486,8 @@ ul {
         left: -20px;
     }
 
-    .wpb_text_column :last-child, .wpb_text_column p:last-child {
+    .wpb_text_column :last-child,
+    .wpb_text_column p:last-child {
         margin-bottom: 0;
     }
 

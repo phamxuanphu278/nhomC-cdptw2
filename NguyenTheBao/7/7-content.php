@@ -51,7 +51,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                             <div class="wpb_text_column wpb_content_element">
                                                                 <div class="wpb_wrapper">
                                                                     <h2>
-                                                                        <strong><span style="color: #0787a3;">1.</span>Best
+                                                                        <strong><span style="color: #0787a3;">1. </span>Best
                                                                             men’s clothing</strong>
                                                                     </h2>
                                                                 </div>
