@@ -77,4 +77,31 @@ $(document).ready(function() {
             },
         }
     });
+    var swiper2 = new Swiper('.slider-swip-6', {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      navigation: {
+        nextEl: '.next6',
+        prevEl: '.prev6',
+      },
+      breakpoints: {
+            480: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            768: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+
+            },
+            992: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+            },
+            1200: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
+        }
+    });
 });
