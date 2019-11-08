@@ -105,3 +105,27 @@ $(document).ready(function() {
         }
     });
 });
+
+$(document).on('scroll' , function() {
+	window.onscroll = function() {scrollMenu()};
+	var header = document.getElementById("my-menu");
+	var sticky = header.offsetTop;
+
+	function scrollMenu() {
+		if (window.pageYOffset > sticky) {
+			header.classList.add("sticky");
+		} else {
+			header.classList.remove("sticky");
+		}
+	}
+});
+
+function myFunction() {
+	var x = document.getElementById("myTopnav");
+	if (x.className === "navbar-ex1-collapse") {
+		x.className += " responsive";
+
+	} else {
+		x.className = "navbar-ex1-collapse";
+	}
+}
