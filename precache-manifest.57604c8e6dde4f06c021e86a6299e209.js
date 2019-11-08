@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2c05762453cc83be1d51b267784c1ec3",
+    "revision": "6db788b2ad01f116df6cde1a75ba5e41",
     "url": "/nhomC-cdptw2/index.html"
   },
   {
-    "revision": "fee52b62f2c1f254cc68",
+    "revision": "f98edf002214c92aa813",
     "url": "/nhomC-cdptw2/static/css/2.9dff373c.chunk.css"
   },
   {
-    "revision": "16a25a9834a638b881a0",
-    "url": "/nhomC-cdptw2/static/css/main.31b4d405.chunk.css"
+    "revision": "8cad46d46b400ab52fa9",
+    "url": "/nhomC-cdptw2/static/css/main.024607fe.chunk.css"
   },
   {
-    "revision": "fee52b62f2c1f254cc68",
-    "url": "/nhomC-cdptw2/static/js/2.52a6d364.chunk.js"
+    "revision": "f98edf002214c92aa813",
+    "url": "/nhomC-cdptw2/static/js/2.09d47088.chunk.js"
   },
   {
-    "revision": "16a25a9834a638b881a0",
-    "url": "/nhomC-cdptw2/static/js/main.01a98cb2.chunk.js"
+    "revision": "8cad46d46b400ab52fa9",
+    "url": "/nhomC-cdptw2/static/js/main.67b3b6cd.chunk.js"
   },
   {
     "revision": "00eb1be30a241d40f4a2",
@@ -48,20 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nhomC-cdptw2/static/media/2.a0764447.jpg"
   },
   {
-    "revision": "a227d5e2fd6fb26042bbc83f947330b6",
-    "url": "/nhomC-cdptw2/static/media/2.a227d5e2.jpg"
-  },
-  {
-    "revision": "64a6cce46683679e5e5a8a23bef214fe",
-    "url": "/nhomC-cdptw2/static/media/3.64a6cce4.jpg"
-  },
-  {
     "revision": "de2f785590f9e76aa343ca86d4aa6a53",
     "url": "/nhomC-cdptw2/static/media/3.de2f7855.png"
-  },
-  {
-    "revision": "01ebe1bae3e2e1df4352802921e5985f",
-    "url": "/nhomC-cdptw2/static/media/4.01ebe1ba.jpg"
   },
   {
     "revision": "215e74db7b6459e8d45a22f1cdf9ad13",
@@ -74,10 +62,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2280d60f78c0a7f7bf927d4d9a930e95",
     "url": "/nhomC-cdptw2/static/media/5.2280d60f.jpg"
-  },
-  {
-    "revision": "0e9511a24873a79607cf5de10859bee1",
-    "url": "/nhomC-cdptw2/static/media/6.0e9511a2.jpg"
   },
   {
     "revision": "a57c9f20160f5a3568d78a5538340b41",
