@@ -1,0 +1,15 @@
++ Github
+https://github.com/phamxuanphu278/nhomC-cdptw2/tree/gh-pages
+
++ Drive
+https://drive.google.com/drive/folders/1qlCDcX8bddf14wS3epw-v3XprHdhtGOv?usp=sharing
+
++ Build project trên github
+https://nguyenthebao23205.github.io/vuejs/
+
++ Cài Node.js và Git msc
++ Sử dụng câu lệnh cmd sau để chạy project
+npm start
+
++ Build project lên github
+npm run deploy
